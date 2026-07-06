@@ -1,0 +1,696 @@
+﻿,Thie is the combined OP1 intake file from all stakeholders to the Ocean Product Development team. Intake has now been closed and this file will be used for prioritization and reporting purposes only.  Please do not make any further updates until after July  7th.   When filtering data make sure to NOT APPLY TO EVERYONE,,,,,,,,,,,,,,,,,,,All columns to the right  of column U are post intake Administration columns,,,,,,,,,
+#,Ocean OP Vision Pillars,OP Initiatives  / Outcomes,OP Initiative Workstreams,"Old Business Themes submitted but hidden as standardized
+(for eg. Invoice reduction) ",Business Value Type,Value PnL Impact $$ / FTE,"Success Measurement / KPI
+(For eg. Invoice Accuracy)",Carry Over Yes/No,Customer Impact,End User Impact,Regions Impact,Platform,Primary System,Any other systems,"Dependencies / Risks
+specify the platform name",Submittor Name,Name: Finance Business Partner Sign off,Contacts (FPO & BPO),MoSCoW PRIORITY LEGEND by Submittor,,Person assigned,Tech / Engineer Name (if known) ,"T-shirt size 
+XS / S / M / L /XL /XXL",Keep in OP1 Yes / No,OP Document / Team,PnL,PnL Owners,Kathik's Category / Product Team,LT Contract Initiative - Karthik
+1,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Automatic inland haulage creation within Prism promise end date,Increase Revenue,Incremental or New Revenue EBIT,$94m,"Haulage accuracy, Haulage on time",No,High,High,Global,Order Handling platform,GCSS,,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,M,,Lisa,Farzana,,Yes,Combined V5,,,,
+2,Simple & Seamless Execution,Revenue Optimisation & Value Capture,Prism: Automatic dispute handling for DnD and Credit memo DLG fee ,Invoice Quality - Ocean+ & DnD,FTE Efficiency,5 FTE,Invoice accuracy,No,High,High,Global,Order Handling platform,Charge Automation,Disputes,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,S,,Saurabh,,L,Yes,Combined V5,,,,
+3,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Offering options for customers to select different Prism product throughout booking journey,Increase Revenue,Incremental or New Revenue EBIT,TBC,Revenue,No,High,High,Global,Order Handling platform,OIPC,,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,S,,Ditte/Haze,,S,Yes,Combined V5,,,,
+4,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Provide Prism qualified routes at booking,Increase Revenue,Incremental or New Revenue EBIT,TBC,"Cost, Delivery success",No,High,High,Global,Order Handling platform,SSIB,"OIPO, IRE, GCSS",Routing platform,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,M,,Ditte/Haze,,M,No,Combined V5,,,,
+5,Structured to Earn,Quote Journey Acceleration,Reefer SPOT,Increase Revenue,Revenue Enabler – EBIT,$6m,Incremental Revenue,No,High,High,APA only,Penny,Penny,"OIPO, SSIB",,Maia Parlagashvili,Fabian Bauerdick,Maia Parlagashvili,M,,Penny Henrik / Ditte/ Haze,,,No,Combined V5,,,,
+6,Structured to Earn,,DG and OOG: Adding the ability to book dangerous goods & odd size cargo in our ocean booking API journey,Ocean Digitization,Incremental or New Revenue EBIT,TBC,"Cost saving(EDI,Data quality), Enhanced Service Offering leading to Increased Revenue.",Yes,High,,Global,Maersk.com,Kairos ,,,Johnathan Katz,,,S,,Ditte,,S,Yes,Combined V5,,,,
+7,Fix the Foundation,,Enhanced Governance for CH Surcharge Automation (improving Ancillary Cost Recovery),Surcharge Revenue budget & upseide,"Revenue Leakage Prevention,",$6.5m,"1) PnL Impact ($ incremental revenues)
+2) Revenue covered via automation (% of total)
+3) Effective month on month submissions of related GRC (OTC LST) Control",Yes,Low,High,Global,Order Handling platform,GCSS,OPERLP (Revenue Leakage Prevention),"GDA dependency to ensure Data Quality in current solution
+TMS dependency to ensure accurate data flow for proposed enhanced solution",Prem Mario,Akhilesh Jaiswal,"Prem Kishen, 
+Marnus Kotze",M,,Pricing Team,,XXL,Yes,Combined V5,,,,
+8,Fix the Foundation,,"1) Decommission E-cargo local system (used in Brazil) 
+
+2) Decommission E-maersk local system (used in Poland, Czechia, Hungary & Slovakia) ",Decommission a System,IT Cost Savings,"$50,000","1) Landside CH orders processed completely using Maersk global OH systems (GCSS) and Athena/ CCD (% coverage) and Local system decom basis 100% coverage
+2) Landside CH orders processed completely using Maersk global OH systems (GCSS, SSIB, SSDO) and TMS (% coverage) and Local system decom basis 100% coverage",No,Low,High,"1) LAM Only 
+2) EUR Only",Order Handling platform,GCSS,"SSIB, SSDO","1) Athena/CCD dependency to ensure Customer Obligations data is available to OH
+2) TMS dependency to ensure E2E processing / execution of CH haulage orders",Prem Mario,APP Owner (IT) - Geoff Fuggle,"Prem Kishen, Lubna Ansari
+Joanna Marat, Karl Harfouche",M,,Jigar / Ditte,,,No,Combined V5,,,,
+9,Simple & Seamless Execution,,Fixing Critical Failures in Spot Pricing Workflow Leading to Operational Inefficiencies and IQ issues,Productivity,FTE Reduction,5 FTE,"Unsuccessful Price Task Closures: Frequent failures due to system errors, unsupported logic, and technical limitations are preventing timely and accurate pricing task completion.
+
+Surcharge Drop Issue: Surcharges initially applied during booking are being dropped at later stages in specific scenarios (acknowledhed by penny platform), leading to incorrect rate instances and revenue leakage.
+
+Lack of Support for Commodity-Based Surcharge Exemptions: The pricing engine for Spot and Maersk Go does not accommodate local regulatory exemptions (e.g., INE not applicable for Cashew, Coffee, Cocoa, Rubber in Guinea; port surcharges exempted for essential goods in Cameroon). This results in manual post-booking adjustments (Manual efforts) , IQ impact, and customer disputes.
+
+Incorrect Repricing After Inland Changes: When inland locations are added, removed, or changed on existing Spot bookings—especially after a carrier-initiated roll—the system often triggers incorrect repricing, leading to incorrect invoices and disputes",No,Low,High,Global,Order Handling platform,GCSS,"Penny, PMA",,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Penny Henrik ,,,,Combined V5,,,,
+10,Structured to Earn,,SSIB VAS - for mixed container size/type - duplicate in Uday's file,Increase Revenue,Revenue Enabler – EBIT,$0.5m,Offer VASes for mix container size type bookings.,No,Low,Low,Global,Order Handling platform,SSIB,,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,S,Yes,Combined V5,,,,
+11,Structured to Earn,,Visibility of potential charges on booking journey,Invoice Quality - Ocean+ & DnD,"Revenue Leakage Prevention,",TBC,"Country specific charges restrictions to be displayed during booking journey to avoid disputes for pay terrm
+Display PIC applicable rates instead of general disclaimer ",No,Low,Low,Global,Order Handling platform,SSIB,Athena,,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Ditte,,M,Yes,Combined V5,,,,
+12,Structured to Earn,,Spot: Enrichment of customer documentation ,Invoice Quality - Ocean+ & DnD,"Revenue Leakage Prevention,",TBC,"Enable printing Spot terms, D&D deals, and penalty on booking confirmation pdf.",No,High,Low,Global,Order Handling platform,SSIB,GCSS,,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Lisa,,,Yes,Combined V5,,,,
+13,Simple & Seamless Execution,,Booking confirmation for download,Ocean Digitization,FTE Efficiency,20 FTE,Instant booking confirmation pdf download functionality on SSIB journey,No,High,Low,Global,Order Handling platform,SSIB,GCSS,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,L,No,Combined V5,,,,
+14,Simple & Seamless Execution,,Commodity based restrictions - SSIB,Ocean Digitization,FTE Efficiency,TBC,For conditional acceptance commodities based on whitelist (approved customers) SSIB to confirm bookings as instant if customer involved is part of this list. ,No,Low,Low,Global,Order Handling platform,SSIB,,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,S,Yes,Combined V5,,,,
+15,Fix the Foundation,,SSIB - Weight validation logic,Ocean Digitization,Operational Cost Savings,TBC,"Integrate SSIB - NAM weight tool and restrict over weight  bookings upfront
+Fetaure to define weight limit max min based on commodity/Flexi e.g. Flexi tank package type Max weight 24k KGS, Empty tanks Max weight 10 kgs",No,High,High,Global,Order Handling platform,SSIB,,,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Ditte,,L,No,Combined V5,,,,
+16,Simple & Seamless Execution,,SSIB amend,Ocean Digitization,FTE Efficiency,TBC,"SSIB does not support cross-product booking amendments, which prevents these customers to submit amendment online. As a result, customers are required to rely on offline channels, leading to additional contacts and manual effort.",No,Low,Low,Global,Order Handling platform,SSIB,OIPO,,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Ditte,,XS,No,Combined V5,,,,
+17,,,Fix UTM validate logic for Contact bookings,Ocean Digitization,Operational Cost Savings,TBC,Fix all UTM validation loopholes which are currently being managed by business teams as agreed exception using GCSS security profiles - provide feature upfront UTM validation to avoid back and forth booking updates,No,Low,Low,Global,Order Handling platform,GCSS,YVD,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Gokul,,,,Combined V5,,,,
+18,Simple & Seamless Execution,,Intergrate PMA Spot exclusion list - auto book tool,Ocean Digitization,FTE Efficiency,TBC,"To provide similar customer experience across all channels, EDI/Inttra non-spot bookings to be matched against Spot exclusion list to allow bookings on Market/Tariff rates ",No,Low,Low,Global,Order Handling platform,PMA,"Auto book, SSIB",,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Haze / Ashvarya,,,Yes,Combined V5,,,,
+19,Simple & Seamless Execution,,Spot: Flexibility to stop specific commodity on Spot ,Ocean Digitization,FTE Efficiency,TBC,"Feature to restrict Spot offers for spoecified commodities e.g. Spot is not allowed for Sports gun
+",No,Low,Low,Global,Order Handling platform,PMA,"Auto book, SSIB",,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Haze,,XS,No,Combined V5,,,,
+20,Simple & Seamless Execution,,Enable CFS Service Mode in SSIB Location Search,Ocean Digitization,FTE Efficiency,TBC,"SSIB to support CFS service mode for Ocean bookings including Spot
+",No,Low,Low,Global,Order Handling platform,SSIB,PMA,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,S,Yes,Combined V5,,,,
+21,Simple & Seamless Execution,,BOOKING MULTIPLIER  ,Ocean Digitization,FTE Efficiency,TBC,Enable a functionality for submitting multiple bookings with the same details in one request on Maersk.com,No,High,Low,Global,Order Handling platform,SSIB,"OIPO, GCSS",,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,L,No,Combined V5,,,,
+22,Simple & Seamless Execution,,Instant booking cancel feature,Ocean Digitization,FTE Efficiency,TBC,Offer instant booking cancel feature on website,No,High,Low,Global,Order Handling platform,SSIB,GCSS,,Prem Mario,,"Rajesh Rao, Manoj Yadav",C,,Ditte,,,No,Combined V5,,,,
+23,Simple & Seamless Execution,,SOC Doc Uploads,Ocean Digitization,FTE Efficiency,TBC,"Provide document upload functionality for SOC containers for non-approved customers
+Auto verification of SOC documents and route to EMR teams
+Support all SOC container types on booking journey
+",No,High,Low,Global,Order Handling platform,SSIB,,,Prem Mario,,"Rajesh Rao, Manoj Yadav",S,,Ditte,,M,Yes,Combined V5,,,,
+24,Simple & Seamless Execution,,"Amendment Improvement:
+(1) Amendment triggered either through customer (SSIB & SSDO), Agent (GCSS) or dispatcher (from TMS) should be with amendment reasons 
+(2) Enable selection of Customs stop, staging location etc in the export inland leg after  containers are picked up from customer facility. Amend the existing shipment, trigger haulage order to TMS. Amendment should be aligned with container execution status from TMS. Customisable at country level. 
+(3) Enable performance management to identify CAD / OTA improvement basis Customer Appointment Date amendment.
+(4) Introduce customer appointment date validation at the time of booking to restrict customer from feeding dummy dates for inland transportation. This could vary per country.
+(5) Auto haulage trigger from GCSS to TMS to enable instant confirmation to customer",Landside Digitization,FTE Efficiency,10 FTE,"1) OTA improvement, 
+2) Reduced customer contacts",Yes,High,High,Global,Maersk.com,SSIB,"SSDO, GCSS",TMS,Prem Mario,,"Lubna Ansari, Prem Kishen, Nisha Soman",,,Ditte / Jigar ,,L,No,Combined V5,,,,
+25,Simple & Seamless Execution,,"Instant booking confirmation: 
+(1) Flexibility to select from  all the available routes instead of limiting to preferred route at the time of new booking & amendments
+(2) For SD & Inland CY bookings instant confirmation should be received from TMS. In case of rejection from TMS, response should be received with recommended/alternate schedul/dates for customer/agent to select. End outcome should be instant confirmation of SD & CY Inland bookings. 
+(3) For Rail & Barge MOT bookings, deadline/cut off should be made visible to customer to enable Instant confirmation.
+(4) Auto haulage trigger from GCSS to TMS to enable instant confirmation to customer",Landside Digitization,FTE Efficiency,TBC,Improved ratio of instant booking confirmation,Yes,High,High,Global,Maersk.com,SSIB,"SSDO, GCSS",TMS,Prem Mario,,"Lubna Ansari, Prem Kishen, Nisha Soman",,,Ditte /Lisa,,,No,Combined V5,,,,
+26,Simple & Seamless Execution,,Out of BL CH bookings invoiced via Maersk LnS local entity should be auto created from Maersk.com & GCSS (Ocean Bkg info) to TELIKOS for export and import shipments,Landside Digitization,FTE Efficiency,TBC,"Automated (out of BL) landside order creation
+CX productivity / efficiency gains",Yes,High,High,Global,Maersk.com,SSIB,GCSS,TELIKOS,Prem Mario,,"Lubna Ansari, Prem Kishen, Nisha Soman",,,Lisa,,,No,Combined V5,,,,
+27,Compelling Products,,Integrate IOT on M.com for tracking events,Commercial Accelerator,Incremental or New Revenue EBIT,TBC,"Strategic initiative, scope is to experiment and see how to sell dry IoT on m.com
+",No,Low,Low,Global,Maersk.com,SSIB,"SSDO, TV","Asset management
+Depends on the successfull installation of 20k IoT devices and corresponding pilot
+",Marnus Kotze,Not completed,CEN LST  PRODUCT,M,,Veronika,Cornelia,M,Yes,Combined V5,,,,
+28,Structured to Earn,,Integrate IOT on M.com for order management,Commercial Accelerator,Incremental or New Revenue EBIT,TBC,TBC,No,Low,Low,Global,Maersk.com,SSIB,SSDO,Asset managment,Marnus Kotze,Not completed,CEN LST  PRODUCT,,,Pritish ,,,No,Combined V5,,,,
+29,Simple & Seamless Execution,,"Exceptional handling :Build an integrated capability combining predictive ETA, automated routing suggestions (no phone calls  but standard notifications on shipment management portal or auto emails), and self-service exception handling with reporting to customers.
+Problem: Reactive planning inc. ocean change impacting SD planning or vice versa, manual intervention, and poor handling of exceptions drive inefficiencies and push customers to manual channels or merchant haulage.
+Impact: Improved OTA and customer satisfaction, reduced operational workload, increased digital (CH) conversion, and better continuous product improvement through direct customer feedback, reducing disputes as we avoid false amendment fees and reprice",Landside Digitization,FTE Efficiency,4 FTE,"66K = 4 FTE
+Time spent by CX on managing amendments of SD bookings, and Less abandoned calls/faster resolution for customers",No,High,High,Global,Maersk.com,SSDO,TMS & Capacity Planner,"This has huge dependency on live capacity reader fron intermodal team to solve the problem.
+
+We already have capacity reader logic in SSDO/Shipment detail for Store Door & Inland conversion (which is not real time - maintained by OTCX team as per data they get from intermodal via various source)",Tobias Gruemmer / Abhay Kinra,Not completed,CEN LST  PRODUCT,M,,Jigar,,,No,Combined V5,,,,
+30,Structured to Earn,,Capacity reader for faster booking confirmations in locations and to increase in automation ratio of post booking journey ,Landside Digitization,Incremental or New Revenue EBIT,2.5 FTE,"10% Automation increase in booking conrifmaion, booking confirmation time",No,High,High,Global,Maersk.com,SSIB,SSDO,TMS,Varadharajan Chellapa,Not completed,CEN LST  PRODUCT,M,,Ditte,,M,Yes,Combined V5,,,,
+31,Structured to Earn,,Improved product availability: A failed search with no inland rates should lead the customer to a nearby best location. We can addtionally use addresses to suggest routing and solve for customers who have no pref of routing or don’t know which SD or CY is best for them,Commercial Accelerator,Incremental or New Revenue EBIT,TBC,CH spot penetration %,Yes,High,Low,Global,Maersk.com,SSIB,,Extention of Zonal pricing initiative,Varadharajan Chellapa,Not completed,CEN LST  PRODUCT,,,Ditte / Jigar ,,S,Yes,Combined V5,,,,
+32,Simple & Seamless Execution,,"Leverage AI & E2E Automation capabilities to cater to overall 
+Import volumes on  Cargo Release & Import related queries processess 
+Route all offline requests received through for CY, SD, and Inland journeys via the SSDO automation module to reduce manual effort, improve efficiency, and increase self-service adoption
+",Productivity,FTE Reduction,45 FTE,Automation improvement,No,Low,High,Global,Order Handling platform,SSDO,SFDC,CRM,Vaibhav Sharma,Caroline Cui,Vaibhav Sharma/Lovina Cardoza,M,,Jigar,Emanuel Inani/Amresh Krishnamurthy,L,Yes,Combined V5,,,,
+33,Simple & Seamless Execution,,"Improve E2E Digital Adoption
+Accelerate E2E digital adoption by onboarding non- standard markets onto the SSDO platform for Delivery Order processing and further optimizing automation across existing transaction volumes. This will increase self-service penetration, streamline operations, reduce CPS and deliver a consistent customer experience globally.",Productivity,FTE Reduction,30 FTE,Automation improvement,Yes,High,High,Global,Order Handling platform,SSDO,,,Vaibhav Sharma,Caroline Cui,Vaibhav Sharma/Lovina Cardoza,M,,Jigar,Emanuel Inani/Amresh Krishnamurthy,L,Yes,Combined V5,,,,
+34,Fix the Foundation,,"Decommission of E-Maersk
+Drive the decommissioning of the legacy E-Maersk platform in NEC/CSE by migrating Customer & OTC activities to standardized enterprise platforms across Booking, Imports, Customs Clearance, and Landside domains. Enable seamless cross-platform collaboration to streamline operations, reduce technical debt, and establish a unified, scalable process landscape.",Decommission a System,IT Cost Savings,"30 FTE
+
+$50,000","Standardisation & Digitisation
+30 FTE + 50K USD Cost saving on E-maersk maintenance",No,High,High,NEC & CSE,Order Handling platform,SSDO,"SSIB, SAPTMS","SAPTMS, SSIB, External Regulatory body",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma/Lovina Cardoza,M,,Jigar / Ditte,Emanuel Inani/Amresh Krishnamurthy,L,Yes,Combined V5,,,,
+35,Compelling Products,,"AFRI system validation to be brought for D&D
+To create visibility of freetime & payment status for D&D charge in GCSS
+For Cash customers, 40–95% of D&D billing remains outstanding month-on-month and consistently migrates into long-ageing buckets, while Freight outstanding remains controlled. The root cause is the absence of payment enforcement at empty return, making D&D a post-service, unsecured receivable.",Ocean Digitization,"Revenue Leakage Prevention,",$56.6m,"Standardisation & Digitisation
+
+* Cash Flow = +$59.5M/month released (~$714M/year)
+* Improved Gate Control - 40% Gap Closure
+* Write-off Reduction = $56.6M/year saved",No,Low,High,Global,Order Handling platform,GCSS,"KRONOS, SSDO,NFTP","NFTP, KRONOS, SSDO",Vaibhav Sharma,Eligio Fanigliulo,"Vaibhav Sharma/Lovina Cardoza, Satyam Singh, Feroz Shaikh, Vinay Palencheri",M,,Lisa / Sunil Thumma,"Emanuel Inani/Amresh Krishnamurthy/Sunil Reddy, NFTP tech",,,Combined V5,,,,
+36,Structured to Earn,,"Enable Ocean/Inland VAS upsell in SSDO
+We should have ocean/Inland VAS charge visibility and automation for Ocean/Inland VAS like DRP, MAC, Multi stop, Triaxle",Increase Revenue,Incremental or New Revenue EBIT,$2.5m,"Incremental revenue
+
+DRP-1 Mn USD
+MAC- 1 Mn USD
+MSI- 0.2Mn USD
+PAD - 0.5M USD
+Triaxile-0.1Mn USD
+",No,High,Low,Global,Order Handling platform,SSDO,,,Vaibhav Sharma,Ocean + Landside P&L,"Vaibhav Sharma/Lovina Cardoza,Cavit",S,,Jigar,Emanuel Inani/Amresh Krishnamurthy,M,Yes,Combined V5,,,,
+37,Fix the Foundation,,"Service Delivery Pre-GAM Approval tool
+A pre-waiver tool that enables users to submit approval requests and calculate additional D&D free time based on service delivery criteria. The tool automatically routes requests to the appropriate approval authority in accordance with the GAM (Governance Authority Matrix) and, upon approval, triggers the automatic addition of free time in Kronos",Invoice Quality - Ocean+ & DnD,2026 FTE Carryover,TBC,"Invoice Accuracy of Service Delivery Failure
+3.3% Invoice Accuracy of D&D service Failures (Ocean + L&S)",No,High,Low,Global,Athena,Kronos ,"SSDO (D&D Calculator), KRONOS","SSDO (D&D Calculator), KRONOS, OnL Cube, Dispute GAM Tool",Vaibhav Sharma,"Shaurya Nehra, Simonne Bonnani","Vaibhav Sharma/Lovina Cardoza, Satyam Singh, Cecilia Gomez",S,,Jigar,Emanuel Inani/Amresh Krishnamurthy/Sunil Reddy,M,Yes,Combined V5,,,,
+38,Simple & Seamless Execution,,"E2E processing of MLL shipment
+Drive end-to-end automation of MLL shipment processing by eliminating manual interventions across the booking and fulfillment lifecycle. Implement scalable automation capabilities to streamline operational workflows, improve processing efficiency, and enhance the customer experience throughout the shipping journey",Productivity,FTE Reduction,10 FTE,Automation improvement,No,Low,High,Global,Another,"SSIB, EDI, GCSS",Neurix ,Tech driven Neurix outcomes,Vaibhav Sharma,Caroline Cui,Vaibhav Sharma/Lovina Cardoza,M,,Ditte,Emanuel Inani/Amresh Krishnamurthy,XL,No,Combined V5,,,,
+39,Fix the Foundation,,"eBL implementation
+Launch eBL globally as per Platform plans in adherence to DCSA standards and reporting
+",Ocean Digitization,Revenue Enabler – EBIT,TBC,"Improvement in Digitization Ratio
+Improve digitisation score to 37%",Yes,Low,High,Global,Order Handling platform,SSED ,GCSS,"Shipment Management, GCSS, Vendor Platform (Enigio)",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Pritish,Emanuele Ianni,M,Yes,Combined V5,,,,
+40,Simple & Seamless Execution,,"Digitize Exports Doc 
+Import Brazil Customs requirement (NCM)",Productivity,FTE Efficiency,6 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,S,Yes,Combined V5,,,,
+41,Simple & Seamless Execution,,"Digitize Exports Doc 
+Import Germany Customer requirement (Multiple cargo line items)",Productivity,FTE Efficiency,4 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,M,Yes,Combined V5,,,,
+42,Simple & Seamless Execution,,"Digitize Exports Doc 
+Manual split shipments -RTDI exception processing via GCSS",Productivity,FTE Efficiency,1 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,M,Yes,Combined V5,,,,
+43,Simple & Seamless Execution,,"Digitize Exports Doc 
+Automation of destination release",Productivity,FTE Efficiency,7 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,M,Yes,Combined V5,,,,
+44,Simple & Seamless Execution,,"Digitize Exports Doc 
+IOTD reassignment for Bill transfer",Productivity,FTE Efficiency,1.7 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Pritish,Amresh,S,Yes,Combined V5,,,,
+45,Simple & Seamless Execution,,"Digitize Exports Doc 
+Enable split/combine action on ASIP amendment stage.",Productivity,FTE Efficiency,3 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,L,Yes,Combined V5,,,,
+46,Simple & Seamless Execution,,"Digitize Exports Doc 
+SOLAR Communication - ISR/ DCC",Productivity,FTE Efficiency,7 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,L,Yes,Combined V5,,,,
+47,Simple & Seamless Execution,,"Digitize Exports Doc 
+Customs References – Independent feature on Maersk.com ",Productivity,FTE Efficiency,3 FTE,Automation improvement,No,High,High,Global,Order Handling platform,SSED ,"GCSS, CMD","SSED, GCSS, CMD, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Pritish,Amresh,S,Yes,Combined V5,,,,
+48,Simple & Seamless Execution,,"Invoice Quality Improvement
+Getting right payer and payterm as part of instruction submitted for SCM customer
+",Invoice Quality - Ocean+ & DnD,2026 FTE Carryover,0,"Invoice Accuracy for SCM shipments
+0.00005",Yes,High,Low,Global,Order Handling platform,-,"SCP , MODS","SCP , MODS, GCSS, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Jigar/ Ashvarya,TBI,L,Yes,Combined V5,,,,
+49,Simple & Seamless Execution,,"Data Quality
+Validation of Shipping instruction commodity description Vs Customer provided HS Code.",Improved Productivity,FTE Hiring Avoidance,5 FTE,Data Quality improvement,No,High,Low,Global,Order Handling platform,GMS,Order handling platform,"GCSS, SSED, GMS, OHP",Vaibhav Sharma,Caroline Cui,Vaibhav Sharma,,,Ashvarya,Amresh,,No,Combined V5,,,,
+50,Fix the Foundation,,EU - New Customs Reforms,Regulatory Compliance,Revenue at Risk-EBIT,$2B,Compliance with New Customs regulation,No,High,High,Global,Order Handling platform,GCD,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,Swampnesh,,,Combined V5,,,,
+51,Fix the Foundation,,HK - Trade Single Window,Regulatory Compliance,Revenue at Risk-EBIT,$1.5B,Compliance with New Customs regulation,No,High,High,Global,Order Handling platform,GCD,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,Swampnesh,,,Combined V5,,,,
+52,Fix the Foundation,,Driving Operational Excellence in IMEA Customs Manifest processes,Improved Productivity,FTE Reduction,$0.2M,FTE and IT cost reduction,No,High,High,Global,Order Handling platform,GCD,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,Swampnesh,,,Combined V5,,,,
+53,Fix the Foundation,,Driving Operational Excellence in SWE Customs Manifest processes,Improved Productivity,Operational Cost Savings,$0.15M,FTE and IT cost reduction,No,Low,High,Global,Order Handling platform,GCD,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,Swampnesh,,,Combined V5,,,,
+54,Fix the Foundation,,Driving Operational Excellence in India Import Manifest process,Improved Productivity,FTE Reduction,3 FTE,"FTE cost reduction
+$0.05M = (3 FTE)",Yes,Low,High,EMEA only ,Order Handling platform,SSDO,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons / Jigar,,M,Yes,Combined V5,,,,
+55,Fix the Foundation,,"Mitigation of High risk to Regulatory compliance
+Kuwait, Saudi Arabia, Bangaldesh",Regulatory Compliance,Revenue at Risk-EBIT,"$25M
+","Business risk mitigation
+$25M + 1.5 FTE",No,High,High,EMEA only ,Order Handling platform,GCD,SSDO,Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Jigar,,L,Yes,Combined V5,,,,
+56,Fix the Foundation,,"Mitigation of High risk to DO and Cargo release
+Kuwait, Saudi Arabia, Bangaldesh",Regulatory Compliance,Revenue at Risk-EBIT,$25M ,"Business risk mitigation
+$25M + 1.5 FTE",No,High,High,EMEA only ,Order Handling platform,SSDO,GCD,Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,,,Yes,Combined V5,,,,
+57,Fix the Foundation,,AI based business support solutions​,Improved Productivity,FTE Reduction,TBC,"FTE cost reduction
+$0.05M",No,Low,High,Global,Order Handling platform,GCD,,,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,,,Yes,Combined V5,,,,
+58,Fix the Foundation,,Colombia Advance Manifest regulation,Regulatory Compliance,Revenue at Risk-EBIT,$40M,Compliance with New Customs regulation,No,High,High,Global,Order Handling platform,GCD,"Seeburger, GCSS, GSIS",Integration Platform,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,,,Yes,Combined V5,,,,
+59,Fix the Foundation,,AI enabled product classification support,Regulatory Compliance,Operational Cost Savings,$0.1M,Business risk mitigation,No,High,High,Global,Order Handling platform,GCD,"Maersk Classify, GCSS",,Vaibhav Sharma,,"Divyang Behre
+Manoj Jain",M,,Al Hirons,,,Yes,Combined V5,,,,
+60,Fix the Foundation,,Compliance with data synergy in Shipping Bill and Shipping Instrutction,Improved Productivity,Operational Cost Savings,$0.1M,Third party Cost saving,No,High,Low,EMEA only ,Order Handling platform,Opticus,GCSS,,Vaibhav Sharma,,Gregor Paredes,M,,Ema,,,,Combined V5,,,,
+61,Fix the Foundation,,Self service Customs Manifest data to support Customs reforms moving to single window ,Regulatory Compliance,FTE Reduction,25 FTE,FTE cost reduction,No,High,High,Global,Maersk.com,Maersk.com,GCD,GCD,Vaibhav Sharma,,Pritish Shetty,M,,Pritish,,L,Yes,Combined V5,,,,
+62,Simple & Seamless Execution,,AI enabled Control and Compliance Dashboard Reports,Improved Productivity,FTE Reduction,$0.1M,FTE cost reduction,No,Low,High,Global,Order Handling platform,Customs Manifest - Reporting & Analytics,GCD,,Vaibhav Sharma,,Divyang Behre,M,,Al Hirons,,,,Combined V5,,,,
+63,Fix the Foundation,,Inttra - Rework and Review,Increase Revenue,Incremental or New Revenue EBIT,$5 m,,,,,Global,Order Handling platform,,,,Priyanka ,,,,,Sheelagh / Ashvarya,,,Yes,Combined V5,,,,
+64,Fix the Foundation,,Continuation of 2026,Contracting,2026 FTE Carryover,TBC,,,,,Global,Athena,,,,Ale_CP,,LTA,M,,Will not do,,,No,Combined V5,,,,Contract Management and Execution
+65,Fix the Foundation,,Continuation on data product,OIPO,2026 FTE Carryover,TBC,,,,,,,,,,Ale_CP,,,,,Haze,,,Yes   ,Combined V5,,,,Offer availability
+66,Simple & Seamless Execution,,Automate SignUp targets back to SFDC,Productivity,FTE Efficiency,TBC,Reduction of workload in GDA and SFDC platform,Yes,Low,Low,Global,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tan Gill,XL,Yes,Combined V5,,,,High 5 - Commercial Planning and Optimization
+67,Simple & Seamless Execution,,"Data Standardarization - product, brand and customer",Productivity,FTE Efficiency,TBC,Time spent in CUPID,Yes,Low,Low,Global,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,High 5 - Commercial Planning and Optimization
+68,Simple & Seamless Execution,,Flexible Auto-splash logic- CPM self-defined splash logic,Productivity,FTE Efficiency,TBC,"Time spent in CUPID
+Flexible Auto-splash logic- CPM self-defined splash logic",Yes,Low,Low,Global,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,High 5 - Commercial Planning and Optimization
+69,,,Flexible SignUp target inputs - Excel export and upload functionality (Bulk process via excel),Productivity,FTE Efficiency,TBC,"Time spent in CUPID
+Flexible SignUp target inputs - Excel export and upload functionality (Bulk process via excel)",Yes,Low,Low,Two regions,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,,High 5 - Commercial Planning and Optimization
+70,Simple & Seamless Execution,,Scale up commercial planning for Niche products - NOR&SPC,Productivity,FTE Efficiency,TBC,"Reduction of workload in CPM and FBP
+Scale up commercial planning for Niche products - NOR&SPC",Yes,Low,High,Global,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,High 5 - Commercial Planning and Optimization
+71,Simple & Seamless Execution,,Transparency with Change log - pipeline,Productivity,FTE Efficiency,TBC,Time spent in CUPID,Yes,Low,Low,Global,CUPID,CUPID,,,Ale_CP,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,High 5 - Commercial Planning and Optimization
+72,Simple & Seamless Execution,,Enhance Data Visibility - SFDC won,Productivity,FTE Efficiency,TBC,Time spent in CUPID,Yes,Low,Low,Global,CUPID,CUPID,,,Naeem/Saravana Balaji,Soeren Thomassen,Jacqueline Xu,C,,Naeem/Saravana Balaji,Tim Basset / PD,XL,Yes,Combined V5,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,High 5 - Commercial Planning and Optimization
+73,,,AI-assisted contract reviews,Productivity,FTE Efficiency,TBC,NSTC contract TAT,,Medium,High,Global,Athena,Alex,,,Ale_CP,,,C,,Ale,,,,Combined V5,,,,Contract Management and Execution
+74,Fix the Foundation,,Emergency surcharge governance,,"Revenue Leakage Prevention,",0,"Invoice Accuracy, Revenue Leakage $
+Linked to no, 88 ?",,,TBD,Global,Athena,Athena,,,Ale_CP,,Himanshu Sathe,,,Ale / Himanshu Sathe,,,Yes,Combined V5,,,,Contract Management and Execution
+75,,,Pre-loaded disruption playbooks,,"Revenue Leakage Prevention,",0,"Invoice Accuracy, Revenue Leakage $
+Linked to no, 88 ?",,,TBD,Global,Athena,Athena,,,Ale_CP,,Himanshu Sathe,,,Ale / Himanshu Sathe,,,Yes,Combined V5,,,,Contract Management and Execution
+77,Fix the Foundation,,Support for PRISM products,,Operational Cost Savings,TBC,"Quote Turnaround Time, Process Efficiency %
+enabler for 100% Athena adoption",,,"Reduced manual effort, streamlined workflow",Global,Athena,Athena,,,Ale_CP,,Mavzuna,,,Ale / Jorge,,,YES,Combined V5,,,,Offer availability
+78,,,MLL,,Operational Cost Savings,$5m,"Quote Turnaround Time, Process Efficiency %
+5-35 mUSDdependent on USTR ​",,,"Reduced manual effort, streamlined workflow",Global,Athena,Athena,,,Ale_CP,,Mavzuna,,,Ale / Mavzuna,,,YES,Combined V5,,,,Offer availability
+79,Fix the Foundation,Platform Consolidation & Technical Simplification,Intra PH,,IT Cost Savings,TBC,"Quote Turnaround Time, Process Efficiency %
+enabler for 100% Athena adoption",,,"Reduced manual effort, streamlined workflow",Global,Athena,Athena,,,Ale_CP,,Mavzuna,,,Sheelagh / Ashvarya / Mavzuna,,,YES,Combined V5,,,,Offer availability
+80,Fix the Foundation,,OOG Quoting,,IT Cost Savings,$15.2m,"Quote Turnaround Time, Process Efficiency %",,,"Reduced manual effort, streamlined workflow",Global,Athena,Athena,,,Ale_CP,,Mavzuna,,,Ale / Mavzuna,,,YES,Combined V5,,,,Offer availability
+81,Structured to Earn,Ocean Digitization & Automation,Automated Revenue & Cost Validation for Non-Disputed Transactions,Auto SO-PO,"Revenue Leakage Prevention,",$7m,Revenue Leakage % reduction,,Medium,Revenue Leakage % reduction,Global,Order Handling platform,Disputes,,,Swapnesh,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+82,Simple & Seamless Execution,Ocean Digitization & Automation,system enhancement should be implemented to automatically accept payer disputes,Payer auto resolution,FTE Reduction,5.5 FTE,FTE Savings,,High,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,SAP/NFTP/Athena,,Swapnesh,,Swapnesh,,,Saurabh,,L,Yes   ,Combined V5,,,,
+83,Simple & Seamless Execution,Ocean Digitization & Automation,To reduce manual effort and eliminate duplication of data entry,Draft GAM,FTE Reduction,1.5 FTE,FTE Savings,,Medium,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,,,Swapnesh,,Swapnesh,,,Saurabh,,M,No,Combined V5,,,,
+84,Simple & Seamless Execution,Ocean Digitization & Automation,The Dispute View (DV) system shall provide users with the ability to download the invoice associated with a dispute directly from the DV interface,Invoice copy download,FTE Reduction,1 FTE,FTE Savings,,Medium,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,,,Swapnesh,,Swapnesh,,,Saurabh,,M,No,Combined V5,,,,
+85,Simple & Seamless Execution,Ocean Digitization & Automation,Auto indexing Disputes,Auto Indexing,FTE Reduction,2 FTE,FTE Savings,,Medium,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,Case Management,,Swapnesh,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+86,Simple & Seamless Execution,Ocean Digitization & Automation,Dispiutes integration with SCP,GAM SCP Integration,FTE Reduction,3 FTE,FTE Savings,,Medium,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,SCP,,TBI,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+87,Simple & Seamless Execution,Ocean Digitization & Automation,Customer Chatbot for Disputes handling,Chatbot Live interaction,FTE Reduction,5 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,MyFinance,,Swapnesh,,Swapnesh,,,Saurabh,,L,Yes,Combined V5,,,,
+88,Simple & Seamless Execution,Ocean Digitization & Automation,Dispute Logging option link on Ml.com,Log disputes via ML.com,FTE Reduction,4 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,M.com,,Swapnesh,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+89,Structured to Earn,Ocean Digitization & Automation,Disputes - D&D revenue leakage arrest,Disputes Ocean Ocean D&D revenue leakage ,"Revenue Leakage Prevention,",$1m,Revenue Leakage % reduction,,,Revenue Leakage % reduction,Global,Order Handling platform,Disputes,Kronos / CXED,,Swapnesh,,Swapnesh,,,Saurabh,,L,Yes,Combined V5,,,,
+90,Simple & Seamless Execution,Ocean Digitization & Automation,Cusrcharges automations,Disputes Ocean - Manual Surcharge auto resolution (Phase 2),FTE Reduction,7 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,,,TBI,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+91,Simple & Seamless Execution,Ocean Digitization & Automation,Contractual Automations,Disputes Ocean - Contractual automation (Phase 2),FTE Reduction,6 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,Athena/Alex,,TBI,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+92,Simple & Seamless Execution,Ocean Digitization & Automation,Amednment automation,Disputes Ocean - Increase scope of amendments,FTE Reduction,5 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,SAP/NFTP/Athena,,TBI,,Swapnesh,,,Saurabh,,M,Yes,Combined V5,,,,
+93,Simple & Seamless Execution,Ocean Digitization & Automation,Disputes Ocean - Calling,Disputes Ocean - Calling,FTE Reduction,5 FTE,FTE Savings,,,"Reduced manual effort, streamlined workflow",Global,Order Handling platform,Disputes,,,TBI,,Swapnesh,,,Saurabh,,XL,Yes   ,Combined V5,,,,
+94,Fix the Foundation,Ocean Digitization & Automation,Dispute Ocean,"GIA & PWC Compliance & Governance Remediation, controls",Revenue at Risk-EBIT,TBC,Compliance %,,,Compliance,Global,Order Handling platform,Disputes,,,TBI,,Swapnesh,,,Saurabh,,XL,Yes   ,Combined V5,,,,
+95,Fix the Foundation,Landside & Non Ocean Products Enablement,Dispute LnS,"GIA, GRC & BCO Compliance & Governance Remediation controls",Revenue at Risk-EBIT,TBC,Compliance %,,,Compliance,Global,Order Handling platform,Disputes,,,TBI,,Swapnesh,,,Saurabh,,XL,Yes   ,Combined V5,,,,
+96,Structured to Earn,,"End-to-end pricing integrity across Opportunity-Quote-Contract-Booking-Invoice to eliminate leakage, with AI-based revenue leakage detection across lifecycle",,"Revenue Leakage Prevention,",TBC,,,,,,,,,"Cross-Platform data gaps (NFTP, SAP)",Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+97,Structured to Earn,,"Market-aligned pricing signal layer using demand, capacity and Integrate Xeneta, SCFI, NYFI + internal signals into Athena to provide benchmark-aligned price ranges",,"Revenue Leakage Prevention,",TBC,,,,,,,,,Data latency and external data translation to Maersk standards LTA Dependency,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+98,Structured to Earn,,Pricing Mandate guardrails & governance through PVT integration in Athena,,,TBC,Reduced Quote below Mandate,,,,,,,,Adoption and Price Settinng recency. LTA Dependency,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+99,Simple & Seamless Execution,,AI powered Pricing chatbot for Price Setters and CPMs for deal-level recommendations,,,TBC,"Improved EBIT, Win Ratio",,,,,,,,Model training improves over a period of time,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+100,Simple & Seamless Execution,,"Pricing simulator for volume, margin and EBIT scenarios",,,TBC,Adoption,,,,,,,,Adoption,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+101,Simple & Seamless Execution,,"Contract intelligence engine for long-term pricing feedback loop, with Product pricing governance layer",,,TBC,Contract margin vs plan,,,,,,,,Data variability,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+102,Structured to Earn,,Analyze competitor pricing patterns,,,TBC,TBD,,,,,,,,Data quality,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+103,Simple & Seamless Execution,,"Agentic price monitoring and alerting system to analyze market trends, competitor pricing, Mandates and other factors ",,,TBC,TBD,,,,,,,,Data quality,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Price Determination - Pricing Intelligence,
+104,Simple & Seamless Execution,,Data Pipelines Maintenance and Enhancements,,,TBC,Data Availability / Downtime%,,,,,,,,Pipeline stability,Saravana Balaji,,,,,Saravana Balaji,,XL,Yes,Athena - Karthik,,,Ocean: Pricing Performance: Data Foundation,
+105,Simple & Seamless Execution,,"Enhance Foundation data layer (rates, surcharges, contracts) with AI modelled self-serve access",,,TBC,Data Completeness% / Accuracy%,,,,,,,,Data availability and pipeline stability,Saravana Balaji,,,,,Saravana Balaji,,XXL,Yes,Athena - Karthik,,,Ocean: Pricing Performance: Data Foundation,
+106,Fix the Foundation,,Contract Migration - AFLS to Athena/aLex manual migration for Amendment only FMC Filing – Long term (Initial & Direct filing) MVP​,,,TBC,,Carry over,,,,,,,,,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+107,Fix the Foundation,,OCE+ Contract Header Implementation​,,,TBC,,Carry over,,,,,,,,,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+108,Fix the Foundation,,"T&C amendments – launch of improved amendment process for OCE+, Air&LCL and SCM.",,,TBC,,Carry over,,,,,,,,,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+109,Fix the Foundation,Operational Productivity & Touch Reduction,Scale contractual obligations consumption (UI and API) for personas besides Disputes,,,TBC,,Carry over,,,,,,,Dispute,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+110,Simple & Seamless Execution,,Enable searchability for Contractual Obligations,,,TBC,,Carry over,,,,,,,Dispute,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+111,Simple & Seamless Execution,"Governance, Compliance & Audit Closure",All-in-visibility for market inclusive,,,TBC,,Carry over,,,,,,,NFTP,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+112,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Product flag dissemination - North Star Solution,,,TBC,,Carry over,,,,,,,"OIPO, SSIB, GCSS & NFTP",Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+113,Simple & Seamless Execution,"Governance, Compliance & Audit Closure",All-in-visibility for Indirect taxes,,,TBC,,New,,,,,,,"OIPO, SSIB, GCSS & NFTP",Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+114,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,Enhance contract quality ,,,TBC,,,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+115,Simple & Seamless Execution,,Dashboards/Notifications for renewals,,,TBC,,,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+116,Simple & Seamless Execution,,Contractual risk dashboard,,,TBC,,,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+117,Fix the Foundation,Platform Consolidation & Technical Simplification,AFLS Decommissioning - Agreement ID & Agreement Line ID dissemination to downstream,,IT Cost Savings,TBC,Enabling Athena benefit and Decommissioning AFLS,New,,,,,,,"OIPO, SSIB, GCSS & NFTP",Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+118,Simple & Seamless Execution,,AI-assisted contract reviews,,,TBC,AI-assisted contract reviews,,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+119,Simple & Seamless Execution,,Ocean ++ Invoicing Data Elements – Group 1 – Capture & Dissemination Development​,,,TBC,,Carry over,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+120,Simple & Seamless Execution,,"Connection to SDP, Athena (CAT,CoPo)",,,TBC,,Carry over,,,,,,,,Shruti,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Contract Management and Execution,
+121,Fix the Foundation,,"OCE+ Price negotiation: Additional lane, mother NP, multiple validities",,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+122,Fix the Foundation,Quote Journey Acceleration,OCE+ Quote & Negotiate: Tender Journey (LT): Additional lane handling,,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+123,Fix the Foundation,,"OCE+ (Includes D&D, CCL, MCS) Quote & Negotiate: Tender Journey (LT): Dynamic deadline",,,TBC,,Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+124,Simple & Seamless Execution,Quote Journey Acceleration,Online Quoting for Long Term Deals (Fast Track Journey),,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+125,Simple & Seamless Execution,Quote Journey Acceleration,Online Quoting for Long Term Deals (Full Service Journey),,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+126,Simple & Seamless Execution,Quote Journey Acceleration,Online Quoting for Long Term Deals (Instant Journey),,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",Carry over,,,,,,,,Karthik,,,,,Mavzuna M,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+127,Fix the Foundation,Allocation Management & Monetisation,Cover BlockSpace deals in Athena quoting (Offerlite) journey,,,TBC,"Faster Quote TAT
+Reduction of CPM and Sales Workload",,,,,,,,,Karthik,,,,,Mavzuna M,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Lite,
+128,Simple & Seamless Execution,Price Suitability & Intelligence Quality,"Charge price setting: charge tariff setting, governance and control, formula-based tariff (incld. ECO, EMS)​",,,TBC,,Carry over,,,,,,,,Karthik,,,,,Naeem B,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Better Pricing,
+129,Simple & Seamless Execution,,"Price negotiation: ECO, unfreeze, nomination review flow ​",,,TBC,,Carry over,,,,,,,,Karthik,,,,,Naeem B,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Better Pricing,
+130,Fix the Foundation,Price Suitability & Intelligence Quality,Index based pricing,,,TBC,"FWD: rate delta  Spot vs BSA. 
+BCO: rate delta LT vs LT with index based pricing",Carry over,,,,,,,,Karthik,,,,,Naeem B,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Better Pricing,
+131,Simple & Seamless Execution,,Contingency playbook,,,TBC,"Improve IQ, Reduce Disputes
+No Revenue leakage",New,,,,,,,,Karthik,,,,,Naeem B,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Better Pricing,
+132,Simple & Seamless Execution,,OCE+ Rate & Obligation Consumption: Ocean ++ Product Visibility,,,TBC,,Carry over,,,,,,,,Karthik,,,,,Shruti A,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / Better Pricing,
+133,Simple & Seamless Execution,Allocation Management & Monetisation,"Transforming CAP into a proactive performance and allocation management tool for customers
+- Proactive reports with push notifications on customer performance at trade, od group and allocation ID level
+- Proactive booking recommendations for customers using AI, to guide them where to keep their focus and how they can best use their agreements / allocations to maximize their outcome
+- Self service amendments by customers on their allocations within the standard value proposition of their products. Non standard asks to be linked to CAT request which requires exception handling process via CPM approval.
+- Net performance calculation capability which we built in 2026 to be incorporated into CAP to align how to read performance between sales/cpms and customers",,,TBC,"- AF%
+- CPM and Sales workload on allocations (coming from amendments)
+- Allocation to book ratio",New,,,,,,,,Shruti,,,,,Can Cebebi/Shruti A,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Allocations,
+134,Simple & Seamless Execution,Allocation Management & Monetisation,"Translation between service level capacity planning and trade/OD Group level allocation and nomination execution
+- OD Group and Trade level total capacity figures derived from individual service/leg level capacities.
+- Impact of OD Group and Trade level nominations and allocation filings to each individual service/leg",,,TBC,Model ship impact USD,New,,,,,,,,Shruti,,,,,Can Cebebi/Shruti A,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Allocations,
+135,Simple & Seamless Execution,Allocation Management & Monetisation,Initial Allocation Filing Automation -  including mapping to various tender journeys,,,TBC,CPM and Sales workload on allocations (coming from initial filings),Carry over,,,,,,,,Shruti,,,,,Can Cebebi/Shruti A,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Allocations,
+136,Simple & Seamless Execution,Allocation Management & Monetisation,Establishing a rule based allocation journey end to end supported by systematic exception handling process for initial allocation filings and amendments,,,TBC,Non standard allocation actions (initial filings and amendments),Carry over,,,,,,,,Shruti,,,,,Can Cebebi/Shruti A,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Allocations,
+137,Structured to Earn,Allocation Management & Monetisation,Any items left over from OP26 approved for allocations,,,TBC,,Carry over,,,,,,,,Shruti,,,,,Can Cebebi/Shruti A,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Allocations,
+138,Simple & Seamless Execution,,Continuation on OIPO data product for bookings offer availability.,,,TBC,,Carry over,,,,,,,,Shruti,,,,,Haze,,XXL,Yes,Athena - Karthik,,,Ocean Contract Products / Offer Availability,
+143,Simple & Seamless Execution,,Granular-level planning to focus on modelship drive - add LT/ST planning capability,,Revenue Enabler – EBIT,TBC,Improved revenue by hitting modelship targets,Carry over,,,,,,,,Naeem/Saravana Balaji,,,,,Naeem/Saravana Balaji,,XL,Yes,Athena - Karthik,,,Ocean Contract Products / High 5 Commercial Planning & Optimization,
+147,Simple & Seamless Execution,,"Ocean+ -Regulatory, governance, control and compliance",,,TBC,,New,,,,,,,,Karthik,,,,,TBI,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+148,Simple & Seamless Execution,Price Suitability & Intelligence Quality,"Ocean+ -Pricing component visibility - Pricing structure, inclusive charges, underlying BAS",,,TBC,,New,,,,,,,,Karthik,,,,,TBI,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+149,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ -Ability to manage discounting rates at granular level,,,TBC,,New,,,,,,,,Karthik,,,,,Raymon/Laura,,L,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+150,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ - Target rate simplification for sales as we have cases where sales would like to provide target rate instructions digitally in order to pass on the customer expectations to all product owners. This is applicable for all rounds as we have cases where customer do provide target rate in round 1 as well and the target rate is not always in line with customer rate structure,,,TBC,,New,,,,,,,,Karthik,,,,,Maczuna M,,L,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+151,Fix the Foundation,Price Suitability & Intelligence Quality,Ocean+ - Modernize Freightage formula,,,TBC,,New,,,,,,,,Karthik,,,,,Prakash N,,L,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+152,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ - Auto Calc logic for tariff for fuel charges,,,TBC,,New,,,,,,,,Karthik,,,,,Ananda Krishnan GM,,XL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+153,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ - Set up logic for auto calculation and updation of tariff for indexed rates/Deliver external benchmark pricing signals,,,TBC,,New,,,,,,,,Karthik,,,,,Raymond,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+154,Fix the Foundation,,Ocean+ - MLL,,,TBC,,New,,,,,,,,Karthik,,,,,Mavzuna M,,XL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+155,Fix the Foundation,,Ocean+ - Intra Philippines,,,TBC,,New,,,,,,,,Karthik,,,,,Mavzuna M,,XL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+156,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ - Full automation of rate filing ,,,TBC,,New,,,,,,,,Karthik,,,,,Ananda Krishnan GM,,L,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+157,Simple & Seamless Execution,Quote Journey Acceleration,Ocean+ - Full automation of amendments,,,TBC,,New,,,,,,,,Karthik,,,,,Ananda Krishnan GM,,L,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+158,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Ocean+ - Integration of price setting with price determination with guardrails,,,TBC,,New,,,,,,,,Karthik,,,,,Raymond,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+159,Fix the Foundation,Quote Journey Acceleration,Ocean+ - Integration of Spot with Athena data set in surcharges and VAS,,,TBC,,New,,,,,,,,Karthik,,,,,Prakash N,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+160,Simple & Seamless Execution,Quote Journey Acceleration,Landside - MCI end to end solution,,,TBC,,New,,,,,,,,Karthik,,,,,Laura Patricia,,XXL,Yes,Athena - Karthik,,,Short Term + Long Term Products,
+161,Fix the Foundation,Quote Journey Acceleration,Self-service online contracting for ORA (new deals; amend deals) ,,,TBC,,New,,,,,,,,Wouter,,,,,Gabriele,,XL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+162,Structured to Earn,Quote Journey Acceleration,Space Reserve - Athena workflow integration ,,,TBC,,New,,,,,,,,Wouter,,,,,Alexander,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+163,Structured to Earn,,Space Reserve - Online upsell opportunity in booking journey,,,TBC,,New,,,,,,,,Wouter,,,,,Alexander,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+164,Fix the Foundation,Contract Governance & Subscription Lifecycle,Contract Rate API ,,,TBC,,New,,,,,,,,Karthik,,,,,TBI,,L,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+165,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Performance Management enhancements (a.o. bidline conversion review),,,TBC,,New,,,,,,,,Wouter,,,,,Joseph,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+166,Simple & Seamless Execution,Price Suitability & Intelligence Quality,Price Setting - price recommendations based on Online rate gaps (close rate gap),,,TBC,,New,,,,,,,,Wouter,,,,,Joseph,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+167,Fix the Foundation,Price Suitability & Intelligence Quality,Price Setting - tier level recommendations ,,,TBC,,New,,,,,,,,Karthik,,,,,Raymond,,L,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+168,Structured to Earn,Price Suitability & Intelligence Quality,Allocation increases linking to upsell (e.g. Space Reserve) to extract more value from allocations,,,TBC,,New,,,,,,,,Shruti,,,,,Shruti A,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+169,Fix the Foundation,Price Suitability & Intelligence Quality,Price-setting capabilities to eliminate QBA requirements ,,,TBC,,New,,,,,,,,Karthik,,,,,Raymond,,L,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+170,Fix the Foundation,Price Suitability & Intelligence Quality,Improve Athena quote processing turn-time to near-instant ,,,TBC,,New,,,,,,,,Karthik,,,,,TBI,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+171,Fix the Foundation,Price Suitability & Intelligence Quality,Proactive error resolution (resolve MEPC/missing rate errors),,,TBC,,New,,,,,,,,Karthik,,,,,TBI,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+172,Simple & Seamless Execution,Price Suitability & Intelligence Quality,MILOS - data visibility on unused pricing projects/quotelines including conversion visibility ,,,TBC,,New,,,,,,,,Wouter,,,,,TBD,,L,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+173,Simple & Seamless Execution,Price Suitability & Intelligence Quality,AI-based customer-request conversion to subscription,,,TBC,,New,,,,,,,,Wouter,,,,,Gabriele,,XXL,Yes,Athena - Karthik,,,Short-Term Contract Products ,
+174,Structured to Earn,,Space Reserve Price Setting in Athena,Increase Revenue,Incremental or New Revenue EBIT,$2m,Incremental EBIT to LT ,No,Low,High,Global,Athena,Athena Horizon - Pricing,Athena Contracting ,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Alexander Ibsen-Abela",M,,Huw,,M,Yes,ST Athena - Wouter,,,,
+175,Structured to Earn,,CAT/Delta Management for Premium Allocation,Another Ocean theme,Incremental or New Revenue EBIT,$0.5m,Incremental EBIT to Online,No,Low,High,Global,CAT (Customer allocation tool),-,Delta,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Alexander Ibsen-Abela",C,,Deepa,,M,Yes,ST Athena - Wouter,,,,
+176,Structured to Earn,,"Space Reserve, Athena Workflow Integration (Move Away from AFLS)",Another Ocean theme,Revenue at Risk-EBIT,$8m,"Athena Adoption 
+8m (current SR PnL impact)",Yes,High,High,Global,Athena,Athena Horizon - Booking,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Alexander Ibsen-Abela",M,,Deepa,,L,Yes,ST Athena - Wouter,,,,
+177,Structured to Earn,,Allocation: Space Reserve and Instant Space Product flag in GCSS,Another Ocean theme,Revenue at Risk-EBIT,0,"Product Flag Coverage 
+Grouped with E15???",Yes,Low,High,Global,Order Handling platform,GCSS,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Alexander Ibsen-Abela",M,,Ditte Haze,,M,Yes ,ST Athena - Wouter,,,,
+178,Structured to Earn,,MILOS ‚ Unused Pricing Projects/Quote Line Visibility (grouped with Athena Perf. management),Another Ocean theme,Incremental or New Revenue EBIT,$0.5m,Unused Pricing Projects Removed; Quote Conversion improved,No,Low,High,Global,Athena,Line Of Sight,"Athena, once price setting is in Athena",Fabio Vilas,Wouter,Fabian Bauerdick,"FPO: Trang Pham 
+BPO:Nic Thitiwichaya Jantadai",S,,Mehul,,S,Yes,ST Athena - Wouter,,,,
+179,Simple & Seamless Execution,,ORA Bidline Automation: AI-driven automation for bidline and subscription creation to reduce manual quoting effort and accelerate turnaround,Quote Turnaround time - ORA Instant,FTE Efficiency,"$25,000",Quote TAT,No,Low,High,Global,Athena,CoPo,RFQT,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",M,,Abhinav,,L,Yes,ST Athena - Wouter,,,,
+180,Simple & Seamless Execution,,"Automated Quote Triggers: Expand automated quoting beyond 2026 scope to cover broader scenarios and increase auto-quote share (e.g., >60% auto-quoted)",Quote Turnaround time - ORA Instant,FTE Efficiency,"$20,000 ",Quote TAT,No,Low,High,Global,Athena,CoPo,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",M,,Ashish / Mehul,,M,Yes,ST Athena - Wouter,,,,
+181,Structured to Earn,,Athena Quote Processing Near-Instant Turn-Time (performance tuning),Quote Turnaround time - ORA Instant,Revenue at Risk-EBIT,"$200,000",Quote TAT,Yes,High,High,Global,Athena,,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",S,,Deepa & Huw,,M,Yes,ST Athena - Wouter,,,,
+182,Simple & Seamless Execution,,Automated PST Workflow for Subscription Activation: Streamline post-sales subscription activation workflow to reduce manual handoffs and accelerate time-to-live,Improved Productivity,FTE Efficiency,"$16,500",Process Efficiency %,No,Low,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",S,,"Vishaka, Abhinav, Ashish",,M,Yes,ST Athena - Wouter,,,,
+183,Simple & Seamless Execution,,Automated Subscription Approvals: Enable automated approval for a defined share of subscriptions to remove manual bottlenecks,Improved Productivity,FTE Efficiency,"$16,500",Process Efficiency %,No,Low,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",S,,Ashish,,S,Yes,ST Athena - Wouter,,,,
+184,Simple & Seamless Execution,,Seamless quote journey handoff: Ability to easily handover opportunities & quotes between instant/fast track/full service journeys,Quote Turnaround time - ORA Instant,FTE Efficiency,"$38,000 ",Quote TAT,No,Low,High,Global,Athena,CoPo,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",S,,Abhinav,,XL,Yes,ST Athena - Wouter,,,,
+185,Simple & Seamless Execution,,"Proactive MEPC Error & Rate error resolution: Automatically detect and resolve MEPC and missing rate errors via alternative locations, service types, dynamic routes, and reasons for pricing errors",Quote Turnaround time - ORA Instant,FTE Efficiency,"$100,000",Quote TAT,No,Low,High,Global,Athena,CoPo,"IRE, MEPC",IRE dynamic & alternative routes,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",M,,Abhinav / IRE,,M,Yes,ST Athena - Wouter,,,,
+186,Structured to Earn,,Automated Subscription Approvals: Ability to control quotation eligibility (e.g.  trackable record vs. new/unregistered customers),Another Ocean theme,"Revenue Leakage Prevention,",0,grouped to E26 ???,No,Low,High,Global,Athena,Subscription Management,Service Offering,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,"Vishaka, Abhinav, Ashish",,M,Yes,ST Athena - Wouter,,,,
+187,Simple & Seamless Execution,,Performance Management Enhancements: Automatically halt auto-renewal and warn for removal when subscription does not meet volume threshold,Another Ocean theme,FTE Reduction,"$236,000",Quote waste,No,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,"Vishaka, Abhinav, Ashish",,M,Yes,ST Athena - Wouter,,,,
+188,Simple & Seamless Execution,,Performance Management Enhancements: Enhance performance tracking with required granularity (trade/commodity level) and bidline conversion analysis,Another Ocean theme,FTE Reduction,0,"Quote waste
+grouped with E26",No,Low,Low,Global,Athena,Subscription Management,GCSS,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,"Vishaka, Abhinav, Ashish",,M,Yes,ST Athena - Wouter,,,,
+189,Simple & Seamless Execution,,Performance Management Enhancements: Extend performance visibility to quote line level to support quote line reduction decisions + ability to implement recommendations,Another Ocean theme,FTE Reduction,0,"Quote waste
+grouped with E26",Yes,Low,Low,Global,Athena,Subscription Management,GCSS,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,"Vishaka, Abhinav, Ashish",,M,Yes,ST Athena - Wouter,,,,
+190,Simple & Seamless Execution,,Contract Rate Visibility API: Provide API for customers to view rate offers and contracted rates before/after contracting to reduce quote requests & number of bid lines,Quote Turnaround time - ORA Instant,FTE Efficiency,"$60,000",Quote line utilisation %,No,High,High,Global,Athena,Athena Horizon - Pricing,Maersk.com,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",C,,Priyanka Shroff,,,,ST Athena - Wouter,,,,
+191,Structured to Earn,,Price Recommendations / Determination: Recommend price adjustments to close gaps between contracted and online (Spot) rates,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,$2m,Incremental EBIT to Online,No,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",M,,Mehul,,,,ST Athena - Wouter,,,,
+192,Structured to Earn,,Allocation Monetization as Add-On: Segment subscriptions by allocation presence to target upsell opportunities,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Incremental EBIT to Online
+grouped with E30",No,Low,Low,Global,OIPO,Subscription Management,CAT,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Abhinav,,,,ST Athena - Wouter,,,,
+193,Structured to Earn,,Athena to GCSS Linkage for CF/Volume Visibility: Integrate Athena with GCSS to display cash flow and volume delivery in-platform,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Incremental EBIT to Online
+grouped with E30",No,Low,Low,Global,Order Handling platform,GCSS,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Purnendu,,,,ST Athena - Wouter,,,,
+194,Structured to Earn,,Price Recommendations / Determination: System recommendations for which tier to assign to customers based on data,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Incremental EBIT to Online
+grouped with E30",No,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Mehul,,,,ST Athena - Wouter,,,,
+195,Structured to Earn,,Price Recommendations / Determination: Automated pricing rules and flexible tier-based pricing to reduce manual rate management,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Process Efficiency %
+Grouped with E30",No,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Mehul,,,,ST Athena - Wouter,,,,
+196,Structured to Earn,,Allocation Monetization as Add-On: Introduce allocation as a paid add-on in the subscription journey with defined pricing model,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Incremental EBIT to Online
+grouped with E30",Yes,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Abhinav,,,,ST Athena - Wouter,,,,
+197,Structured to Earn,,Allocation as Upsell (Sales & Self-Service): Enable allocation upsell via sales channel and self-service online journey to extract more value,CY per FFE spread ST v Spot,Incremental or New Revenue EBIT,0,"Incremental EBIT to Online
+grouped with E30",No,High,High,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Nic Thitiwichaya Jantadai",S,,Martyna,,,,ST Athena - Wouter,,,,
+198,Simple & Seamless Execution,,Online self-service Ocean+ quote request for ORA/Instant offer: Customer self-service ORA subscription request on Maersk.com,Ocean Digitization,FTE Efficiency,"$685,000","Adoption %, self-service quotes %",No,High,High,Global,Athena,Athena Horizon - Pricing,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",M,,Gurdave,,,,ST Athena - Wouter,,,,
+199,Simple & Seamless Execution,,"Online ORA quote output and acceptance: Enable customer to view, amend, accept an instant quote online",Ocean Digitization,FTE Efficiency,0,"Adoption %, self-service quotes %
+grouped with E35",No,High,High,Global,Athena,Alex,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",M,,Gurdave,,,,ST Athena - Wouter,,,,
+200,Simple & Seamless Execution,,"Online Contract Visibility & Management: Enable customer to view, renew, book, amend, and make additional lane requests online",Ocean Digitization,FTE Efficiency,"$365,000","Disputes %, # of customer cases",No,High,High,Global,Maersk.com,Alex,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",M,,Ashish / Ema,,,,ST Athena - Wouter,,,,
+201,Structured to Earn,,Offer Spot/Go reference rates when ORA rates are unavailable: Enable fallback SPOT offers/price when ORA is not available for a specific tradelane in online quote journey,Ocean Digitization,Incremental or New Revenue EBIT,$1m,Quote to book conversion %,No,Low,Low,Global,Penny,SSIB,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",C,,Henrik Hansen,,,,ST Athena - Wouter,,,,
+202,Simple & Seamless Execution,,Online visibility of customer contract rates & offers: Allow customers to browse on Maersk.com monthly/quarterly contract rates before triggering a formal quote,Ocean Digitization,FTE Efficiency,0,"Quote line utilisation %
+grouped with E29",No,Low,Low,Global,Maersk.com,Alex,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Joseph Chrisman",C,,Huw & Deepa,,,,ST Athena - Wouter,,,,
+203,Fix the Foundation,,Athena Subscription Journey Stabilization & Tech Debt: Stabilize and enhance subscription journey in Athena and reduce reliance on L1 hypercare on user queries regarding system performance; resolve tech debt from current build-out,Improved Productivity,IT Cost Savings,"$50,000",,Yes,Low,Low,Global,Athena,Subscription Management,,,Wouter,Fabian Bauerdick,"FPO: Avdhut Gawde, Sagar Parmar 
+BPO: Gabriele Balke",M,,Abhinav,,,,ST Athena - Wouter,,,,
+204,Compelling Products,," AI agent using Apex capability for experimentation. Increase conversion with customer Funnel data visibility from maersk.com and SSIB, using this to run targeted experiments that increase conversion. Funnel data such as:
+
+How many new customers search per month
+How many customers do we churn
+How many returning customers do we have
+How many new customers book in the first time
+How many searches does it take before 1st booking
+How many customers booking the first attempt (i.e. get a bookable offer that convert searches to booking)
+
+How far do they get in the journey?
+When do they drop out of the journey?
+Why do they drop out of the journey?
+What are the most popular filters they use?
+What are the heat map on each page? What are they viewing the most?
+What is the time spent per page?",Loaded Volume,Incremental or New Revenue EBIT,1 FTE,Loaded FFE,No,High,Low,Global,Maersk.com,,SSIB,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Dimitar Dzhongov,,S,Yes,Athena - Uday,,,,
+205,Structured to Earn,,"Asset Based Pricing - Price Validation Service - Granularity to set PVS at pricing group or service/vessel/voyage level, eventually consuming Min CY at vsl/voy level and setting hurdlke rates.",Increase Revenue,Incremental or New Revenue EBIT,$1m,Incremental CY,Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,s,Yes,Athena - Uday,,,,
+206,Structured to Earn,,Asset Based Pricing: Vessel Voyage Pricing capability. Linking uptake systems from Delta into Penny for accurate and real time RFC and minimum CY conditions to influence pricing at service/vessel/voyage level instead of Trade-->Corridor level.,Increase Revenue,Revenue Enabler – EBIT,$3m,Incremental CY,Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+207,Simple & Seamless Execution,,"Delta enhancements: Multiple use cases
+Move count management 
+Automation of compartment allocation, 
+Whitelist settings at voyage level and retention of default bucket/delta settings, 
+Automated traffic light system
+Edits from main screen
+Freesale Demand Forecast
+Uptake curves in Delta",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",Yes,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,L,Yes,Athena - Uday,,,,
+208,Compelling Products,,Differentiated pricing: Dynamic discounting based on the ETD week and vessel situation.,Loaded Volume,Revenue Enabler – EBIT,$1m,Incremental CY,Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,M,Yes,Athena - Uday,,,,
+209,Compelling Products,,Differentiated pricing: Improved offer availability based on customer behavior.,Loaded Volume,Revenue Enabler – EBIT,$0.5m,Loaded FFE,Yes,High,High,Global,OIPO,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Haze Lan Yao,,M,Yes,Athena - Uday,,,,
+210,Simple & Seamless Execution,,Differentiated pricing: Rules (volume and behavior) based automation of customer promotion and demotion.,Improved Productivity,FTE Efficiency,$0.5m,"FTE efficiency
+$0.5m  
+We need a number of FTE reductions",Yes,High,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+211,Structured to Earn,,"Early Warning System in pricing and uptake management, with hard coded Penny/Delta actions.",Increase Revenue,Incremental or New Revenue EBIT,$3m,Incremental CY,No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,M,Yes,Athena - Uday,,,,
+212,Structured to Earn,,"Heavy Weight pricing in Spot/Go, with weight dependent surcharge feature.",Increase Revenue,Incremental or New Revenue EBIT,$1m,Incremental CY,,High,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,,Yes,Athena - Uday,,,,
+213,Compelling Products,,Inland pricing on Spot (multiple requirements.): Inland end-to-end pricing visibility and an inland pricing enhancement enabling Penny to link to differentiated ST Inland rates in Athena through rate-based pricing.,Loaded Volume,Incremental or New Revenue EBIT,$3m,Loaded FFE,No,High,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+214,Compelling Products,,Load priority: Loading priority change to P9 for Contract over allocation.,Commercial Accelerator,Revenue Enabler – EBIT,0.5m,Loaded FFE,No,High,Low,Global,Another,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,TBI,,XL,No (completed 2026),Athena - Uday,,,,
+215,Simple & Seamless Execution,,Long tail price automation in Penny.,Productivity,Incremental or New Revenue EBIT,$1m,Incremental CY,Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+216,Compelling Products,,"Online product expansion: Covering OFAC, DG, IG SPC.",Loaded Volume,Incremental or New Revenue EBIT,$2m,Loaded FFE,No,High,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+217,Compelling Products,,Online product expansion: Live Reefers on Spot,Loaded Volume,Incremental or New Revenue EBIT,$3m,Loaded FFE,No,High,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+218,Simple & Seamless Execution,,"Penny Data Product (multiple requirements): We need to put Penny data into a datalake for wider consumption, especially every new feature should have data enablement to track success.
+Use cases:
+SPOT rate data product to close rate gaps, improve accessibility to forward-looking SPOT BAS and threshold pricing data, and reduce manual effort for pricing of SPOT-linked ST offline products",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+219,Structured to Earn,,Penny: Business rule enhancement for further granularity on 40 container groups and NORs.,Increase Revenue,Revenue Enabler – EBIT,$0.5m,Incremental CY,No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,M,No,Athena - Uday,,,,
+220,Structured to Earn,,"Penny: Threshold pricing improvements such as 20/40 differentiation, climb down on downfall.",Increase Revenue,Revenue Enabler – EBIT,$1m,Incremental CY,No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+221,Simple & Seamless Execution,,"Penny: User functionality enhancements
+Adding CY/FFE visibility next to the “New Price” tab in the Adaptive Pricing window 
+Introducing a Penny OD grouping configuration module.
+Ability to download multiple trades and weeks in one go from ABP.",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,M,No,Athena - Uday,,,,
+222,Structured to Earn,,"Platform and pricing coherence across all ST products: Ability to price across products (Online, ST, ORA, Offer Light) combined with visibility into ST product and SPOT price comparisons, rate updates in Penny/Athena.",Improved Productivity,Revenue Enabler – EBIT,$2m,Incremental CY,No,Low,High,Global,Penny,,Athena,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XXL,Yes,Athena - Uday,,,,
+223,Structured to Earn,,Price optimization for integrated routing.,Increase Revenue,Incremental or New Revenue EBIT,$1m,Incremental CY,No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,XL,Yes,Athena - Uday,,,,
+224,Fix the Foundation,,"Products flags to differentiate ORA, BSA index, Above allocation.",Commercial Accelerator,Revenue Enabler – EBIT,$2.5m,Incremental CY,No,Low,High,Global,OIPO,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Haze Lan Yao,,,No - Particially Completed this year,Athena - Uday,,,,
+225,Simple & Seamless Execution,,"Real time offer availabity visibility enhancements with new data fields and scale to all trades. An agentic solution for frontline (CX, sales, CPM, UTM, PM) to get quick view on missing offer reasons.",Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",,Low,High,Global,OIPO,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Haze Lan Yao,,,Yes,Athena - Uday,,,,
+226,Compelling Products,,"Spot Booking Journey enhancements: 
+Scarcity notifications in the booking journey.",Loaded Volume,Incremental or New Revenue EBIT,$1m,Loaded FFE,,High,Low,Global,Order Handling platform,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,Yes,Athena - Uday,,,,
+227,Structured to Earn,,Spot bot prevention via faster pricing action and slowing booking intake.,Increase Revenue,Revenue Enabler – EBIT,$2m,Incremental CY,Yes,High,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+228,Structured to Earn,,Spot Governance: Configurable maximum amendment capability by either number of days from ETD or number of amendments per shipment.,Increase Revenue,Revenue at Risk-EBIT,$1m,Incremental CY,No,High,Low,Global,Penny,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+229,Structured to Earn,,Spot IQ improvements: Covering a wide range of system limitations that lead to manual pricing or disputes.,Invoice Quality - Ocean+ & DnD,Revenue at Risk-EBIT,$0.5m,"IQ improvement: 0,05%",,High,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,,No,Athena - Uday,,,,
+230,Structured to Earn,,"Allocation control via traffic light system, utilizing missing offer and bottleneck data to limit and curtail allocations on bottleneck corridors. Will require a link to CAT for OD group level allocation filing.",Modelship Top 11 PiP - Online ST LT,Incremental or New Revenue EBIT,$1m,Incremental CY,Yes,High,High,Global,Delta,,"OIPO, CAT",,Barbara,Francisco Martin Robles,Uday Pandeya,,,Gokul,,L,Yes,Athena - Uday,,,,
+231,,,Spot VP: Capability to offer promotional codes at vsl/voy level.,Loaded Volume,Incremental or New Revenue EBIT,$1m,Loaded FFE,,High,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,,No,Athena - Uday,,,,
+232,Compelling Products,,"Spot/Go Booking Journey enhancements improving speed, availability and conversion.",Loaded Volume,Incremental or New Revenue EBIT,$1m,Loaded FFE,,High,Low,Global,Order Handling platform,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,No,Athena - Uday,,,,
+233,Simple & Seamless Execution,,"Uptake Management: Agentic AI solution for value and non-value adding activities in uptake management. Tasks under review - bucket and nest setting, booking rejection reasons, capacity and CAF overrides, objective function based recommendations, dynamic ISC flex, compartment changes.",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",No,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,L,Yes,Athena - Uday,,,,
+234,Structured to Earn,,Uptake Management: Feeder and destination optimization.,Increase Revenue,Revenue Enabler – EBIT,$5m,Incremental CY,No,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,XL,Yes,Athena - Uday,,,,
+235,Simple & Seamless Execution,,Uptake Management: Improved CAF and materialization forecasts to reduce manual overrides.,Improved Productivity,FTE Efficiency,$0.5m,FTE reduction,No,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,XXL,Yes,Athena - Uday,,,,
+236,Structured to Earn,,"Uptake Management: Improving capacity control in Delta by introducing separate visibility and allocation for relay flows sharing the same deep-sea route direction, which are currently managed as a pooled capacity.",Increase Revenue,Incremental or New Revenue EBIT,$1m,Incremental CY,No,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,M,Yes,Athena - Uday,,,,
+237,Structured to Earn,,Uptake Management: Minimum CY across global network and data product that allows measurement of user action versus the theoretical minimum.,Increase Revenue,Revenue Enabler – EBIT,$1m,Incremental CY,Yes,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,XL,Yes,Athena - Uday,,,,
+238,Structured to Earn,,VAS attachment on Spot: Price Insurance product as VAS to generate incremental revenue per booking.,Increase Revenue,Incremental or New Revenue EBIT,$0.2m,Loaded FFE,,High,Low,APA only,Order Handling platform,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,Yes,Athena - Uday,,,,
+239,Structured to Earn,,Uptake Management: YVD compliance tracking and prevention of current manual exceptions. provide feature upfront UTM validation to avoid back and forth booking updates.,Increase Revenue,Revenue at Risk-EBIT,$1m,Incremental CY,No,Low,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,M,Yes,Athena - Uday,,,,
+240,Simple & Seamless Execution,,Differentiated Pricing: Automation about recommendations of discounts and numbers of tiers,Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+241,Simple & Seamless Execution,,"Penny Chat Bot: Conversational AI interface within Penny to query insights, pricing data, and system recommendations, enabling real-time, natural language interaction for decision support.",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.2m  
+We need a number of FTE reductions",No,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,No,Athena - Uday,,,,
+242,Simple & Seamless Execution,,"Asset Based Pricing: Control Panel – Power Decision capability enabling second-phase bulk updates for efficient, large-scale pricing actions and governance.",Improved Productivity,FTE Efficiency,TBC,"FTE reduction
+$0.5m  
+We need a number of FTE reductions",Yes,Low,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,No,Athena - Uday,,,,
+243,Structured to Earn,,"Unsuccessful Price Task Closures: Frequent failures due to system errors, unsupported logic, and technical limitations are preventing timely and accurate pricing task completion.
+
+Surcharge Drop Issue: Surcharges initially applied during booking are being dropped at later stages in specific scenarios (acknowledhed by penny platform), leading to incorrect rate instances and revenue leakage.
+
+Lack of Support for Commodity-Based Surcharge Exemptions: The pricing engine for Spot and Maersk Go does not accommodate local regulatory exemptions (e.g., INE not applicable for Cashew, Coffee, Cocoa, Rubber in Guinea; port surcharges exempted for essential goods in Cameroon). This results in manual post-booking adjustments (Manual efforts) , IQ impact, and customer disputes.
+
+Incorrect Repricing After Inland Changes: When inland locations are added, removed, or changed on existing Spot bookings— after a carrier-initiated roll—the system often triggers incorrect repricing, leading to incorrect invoices and disputes",Invoice Quality - Ocean+ & DnD,"Revenue Leakage Prevention,",$0.5m,"IQ improvement: 0,05%",No,High,High,Global,Penny,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,M,Yes,Athena - Uday,,,,
+244,Structured to Earn,,SSIB VAS - for mixed container size/type,EBIT update from platform work,Incremental or New Revenue EBIT,$0.5m,Incremental CY,,High,Low,Global,Order Handling platform,SSIB,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,Yes,Athena - Uday,,,,
+245,Structured to Earn,,"Country specific charges restrictions to be displayed during booking journey to avoid disputes for pay terrm
+Display PIC applicable rates instead of general disclaimer.",Invoice Quality - Ocean+ & DnD,"Revenue Leakage Prevention,",$0.3m,"IQ improvement: 0,01%",,High,Low,Global,Order Handling platform,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,Yes,Athena - Uday,,,,
+246,Structured to Earn,,"Spot: Enrichment of customer documentation. Enable printing Spot terms, D&D deals, and penalty on booking confirmation pdf.",Invoice Quality - Ocean+ & DnD,"Revenue Leakage Prevention,",$0.2m,"IQ improvement: 0,01%",,High,Low,Global,Order Handling platform,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Ditte Jensen,,,No,Athena - Uday,,,,
+247,Simple & Seamless Execution,,FVC exception management to be systemically codified instead of current manual process.,Improved Productivity,FTE Efficiency,$0.1m,FTE reduction,,High,High,Global,Delta,,,,Uday,Francisco Martin Robles,Uday Pandeya,,,Gokul,,,Yes,Athena - Uday,,,,
+248,Simple & Seamless Execution,,Pricing Management: Agentic AI solution for value and non-value adding activities in pricing daily day.,Improved Productivity,FTE Efficiency,$0.1m,FTE reduction,,High,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,,Yes,Athena - Uday,,,,
+249,Structured to Earn,,Product journey configuration: BSA overflows should only get Spot.,Modelship Top 11 PiP - Online ST LT,Incremental or New Revenue EBIT,$2m,Incremental CY,,High,High,Global,OIPO,,,,Uday,,,,,TBI,,,Yes,Athena - Uday,,,,
+250,Simple & Seamless Execution,,Maersk Go digitize the sign up and the removal of customers from Maersk Go.,Modelship Top 11 PiP - Online ST LT,FTE Efficiency,$0.1m,FTE reduction,,High,High,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,,Yes,Athena - Uday,,,,
+251,Simple & Seamless Execution,,"Asset Based Pricing - RFC, routing and search, conversion, downfall patterns from customer funnel.",Productivity,FTE Efficiency,$0.5m,FTE reduction,Yes,Low,Low,Global,Penny,,,,Barbara,Francisco Martin Robles,Uday Pandeya,,,Henrik ,,L,Yes,Athena - Uday,,,,
+252,Structured to Earn,,"Expand Online Freetime Upsell: 
+1. Export Freetime - Online upsell in the Bkg journey + LnS bundles; 
+2. Cgnee Freetime - Post ETA upsell LnS bundles (Instant credit payments/direct debit); 
+3. Automation of progressive FT pricing (linked to D&D tariff updates); 
+4. Web = Maersk App features; 5. Currency calculator at M.com supports all currencies conversion (instant payments)",Increase Revenue,Incremental or New Revenue EBIT,$5m,Revenue,No,High,High,Global,Order Handling platform,SSDO,"M.com Shipment Details, SSED",NFTP,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,"Timothy Lee, Denver D'silva",M,,Prachi,,,Yes  ,Athena - DnD Prachi,,,,
+253,Structured to Earn,,Scale Export Contract Freetime Extension upsell and decrease Export Freedays,Increase Revenue,Incremental or New Revenue EBIT,$3m,Revenue,No,High,High,Global,Order Handling platform,Kronos ,NEAT,Kronos should have export D&D calculation capability so we do not build Athena solution with NEAT,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,Shrikant,S,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+254,Structured to Earn,,"Optimized Freetime Pricing: 
+1. Contract Freetime Pricing: system-generated pricing recommendations for Contract Freetime Extension; 
+2. Replace current manual destination led ST pricing with automated sytematic solution; 
+3. Optimization tool - market/competition benchmarking and patterns for pricing related to freight forecast- DTI VS FTEXT VS Tariff revenue -Xeneta/CTS commercial benchmarking.",Increase Revenue,Incremental or New Revenue EBIT,$5m,Revenue,No,High,High,Global,Athena,Athena,Prowess,,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,"Shrikant, Avdhut, Lalitha",S,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+255,Structured to Earn,,VIP: Drive higher FFE growth per every USD spent through ROI-driven incentive optimization,Another Ocean theme,"Revenue Leakage Prevention,",$6m,Cost reduction,No,High,High,Global,Another,VIP governance ,,,Lina Barauskaite,Ausra Martinkute,na,S,,Shaurya,,L/XL,Yes,Athena - DnD Prachi,,,,
+256,Structured to Earn,,"Waivers: Reduce waiver spent through system-controlled categorization and routing, and enhanced, insight-driven approval decisions.",Another Ocean theme,"Revenue Leakage Prevention,",$4.5m,Cost reduction,Yes,High,High,Global,Another,GAM ,,,Lina Barauskaite,Eligio Fanigliulo,Jennifer Azavedo,S,,Shaurya,,L/XL,Yes,Athena - DnD Prachi,,,,
+257,Structured to Earn,,"Extend Tariffbenchmarking to other surcharges (basic, mandatory, conditional, behavioural and etc) with clear cost visibility and automated data updates with notifications to users (*Assuming that all the scope and geography is covered by tech release) ",Increase Revenue,Incremental or New Revenue EBIT,$100m,Revenue,Yes,Low,High,Global,Another,Tariff Benchmarking,,,Cavit Ilker,Sandeep Kumar Padhy / Eligio Fanigliulo,N/A,M,,Shaurya,,,Yes,Athena - DnD Prachi,,,,
+258,Structured to Earn,,"Customer profitability visibility across all VAS, Surcharges, D&D
+- Clear line of sight to customer D&D deals by country/location on FT granted, purchased, purchase price & penalty price per day afterward
+- Visibility to D&D deals as they close during contracting to track progress
+- Control account baseline and push DTI uplift for underperforming accounts",Commercial Accelerator,Incremental or New Revenue EBIT,TBC,Revenue,No,Low,Low,Global,Another,,,,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,N/A,C,,Shaurya,,,,Athena - DnD Prachi,,,,
+259,Structured to Earn,,Flexibility of adjusting surcharge triggers ie PCD Vs Discharge,Commercial Accelerator,"Revenue Leakage Prevention,",TBC,,,,,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+260,Structured to Earn,,Accruals posting in FBR basis POD as opposed to CBU,Ocean Digitization,Incremental or New Revenue EBIT,TBC,,,Low,High,Global,Another,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+261,Structured to Earn,,Make Ocean surcharge- RHI applicable to freight not just destination,Increase Revenue,"Revenue Leakage Prevention,",TBC,Reduction in Disputes,,High,High,EMEA only ,Athena,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+262,Structured to Earn,,Surcharge&DnD Rev/Vol split Ocean + LNS visibility - ROP indicators,Ocean Digitization,Incremental or New Revenue EBIT,TBC,,,,,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+263,Structured to Earn,,Bifurcate surcharge revenue in a trade P&L,Ocean Digitization,Revenue Enabler – EBIT,TBC,,,,,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+264,Structured to Earn,,Business Request: Develop reefer THC cost model (EUR) and add electricity related cost for (LAM) after electricity cost allocation confirmation (dnd vs THC),Surcharge Revenue budget & upseide,"Revenue Leakage Prevention,",TBC,"Global Reefer cost model in place
+in Tariff BIM",No,Low,High,Global,"PowerBI, Tariff Benchmarking Tool",PowerBI,none,"visibility of cost details in STCY, alignment with d&d on free days",Prachi,TBC,"Leonie Wehrle, Cavit Ilker",,,Shaurya,,,yes,Athena - DnD Prachi,,,,
+265,Structured to Earn,,Automated way (perhaps similar to VIP) to apply D&D waivers based on customer fulfilment of agreement,Loaded Volume,"Revenue Leakage Prevention,",TBC,Agreement Fulfillment or Alternatively Collections,,High,High,Global,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+266,Structured to Earn,,Clear line of sight to charge application,Increase Revenue,Revenue Enabler – EBIT,TBC,Revenue,,Low,High,Global,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+267,Structured to Earn,,Clear line of sight to cost by charge,Increase Revenue,Revenue Enabler – EBIT,TBC,Revenue,,Low,High,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+268,Structured to Earn,,"Clear line of sight for each existing surcharge, with total invoiced by month/year, by customer, by trade, application ratio, customer exceptions (including customers exemptions)",Increase Revenue,Revenue Enabler – EBIT,TBC,Revenue,,Low,High,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+269,Structured to Earn,,Automated container hold/release post-payment for outstanding live import demurrage,Ocean Digitization,Revenue Enabler – EBIT,TBC,,No,Low,High,NA only,Maersk.com,,,,Prachi,,,C,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+270,Simple & Seamless Execution,,Visibility to waiver types in Cube/FBR,Productivity,"Revenue Leakage Prevention,",TBC,Enables all D&D waiver related initiatives,No,Low,High,Global,Another,GAM ,,,Prachi,,,C,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+271,Simple & Seamless Execution,,"Shipment-level visibility on Case Management ""pre-invoice"" waivers/adjustments in D&D Cube, etc.",Productivity,"Revenue Leakage Prevention,",TBC,Enables all D&D waiver related initiatives,No,Low,Low,NA only,Order Handling platform,,,,Prachi,,,C,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+272,Structured to Earn,,Inclusion of THC cost actuals at terminal level into Benchmarking tool.,Increase Revenue,"Revenue Leakage Prevention,",TBC,"Revenue, THC Margin improvement",,Low,High,Global,,Tariff Benchmarking,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+273,Structured to Earn,,Inclusion of doc fees costs into Benchmarking Tool,Increase Revenue,"Revenue Leakage Prevention,",TBC,"Revenue, doc fee margin",,Low,High,Global,,Tariff Benchmarking,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+274,Structured to Earn,,Disrupting Colombia export market. Implement OHC in government regulated trade.,Surcharge Revenue budget & upseide,Incremental or New Revenue EBIT,TBC,Revenue,,High,High,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+275,Structured to Earn,,Visibility of actual positioning costs related to DRP/PIC,Ocean Digitization,"Revenue Leakage Prevention,",TBC,,,Low,Low,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+276,Structured to Earn,,Visibility of actual electricity/storage costs related to Freebies agreements,Ocean Digitization,"Revenue Leakage Prevention,",TBC,,,Low,Low,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+277,Structured to Earn,,"Maintenance of current existing Dashboards (e.g. PQC, Upgrade Costs)",Ocean Digitization,"Revenue Leakage Prevention,",TBC,,,Low,Low,,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+278,Fix the Foundation,,PCC application methodology improvement,Cost Reduction,Operational Cost Savings,TBC,Cost reduction,,High,High,Global,Athena,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+279,Structured to Earn,,LWC Application- PCD vs ETA at transshipment port,Another Ocean theme,"Revenue Leakage Prevention,",TBC,,,High,High,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+280,Fix the Foundation,,PQC cost reduction via enhanced vibility considering empty flows (import full and empty repositioning),Cost Reduction,Operational Cost Savings,TBC,Cost reduction,,Low,Low,Global,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+281,Simple & Seamless Execution,,New local freebie request tool for LAM,Improved Productivity,FTE Efficiency,TBC,"Improved processes, SLA and lower IQ issues",,Low,High,LAM,,,,,Prachi,,,,,TBI,,,,Athena - DnD Prachi,,,,
+282,Structured to Earn,,PQC: identify cancelled shipments due to lack of container availability,Increase Revenue,Incremental or New Revenue EBIT,TBC,Revenue improvement,,High,High,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+283,Structured to Earn,,Include PQC in the benchmark tool,Increase Revenue,"Revenue Leakage Prevention,",TBC,Revenue improvement,,Low,Low,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+284,Structured to Earn,,Implementation of Late Gate and Late Documentation and other VAS,Increase Revenue,Incremental or New Revenue EBIT,TBC,Revenue improvement,,High,High,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+285,Fix the Foundation,,Enhanced plug in application where the benefits are made by shipper (Brazil),Cost Reduction,Operational Cost Savings,TBC,Cost reduction,,High,High,LAM,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+286,Structured to Earn,,"Manifest revenue from ""inclusive"" deals",Ocean Digitization,Revenue Enabler – EBIT,TBC,Revenue improvement,,Low,High,Global,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+287,Structured to Earn,,Further VAS automations,Ocean Digitization,"Revenue Leakage Prevention,",TBC,Revenue improvement,,High,High,Global,,,,,Prachi,,,,,Shaurya,,,,Athena - DnD Prachi,,,,
+288,Structured to Earn,,"Target aged AR (6–12 months), fully accrued, using structured discount strategy (up to 50%)",Improve Collection – Pre-legal Campaign,Incremental or New Revenue EBIT,TBC,Cash recovered ($),,Low,High,LAM,,,,,Prachi,,,S,,Prachi,,,,Athena - DnD Prachi,,,,
+289,Compelling Products,,Standardize FT packages for U trades to reduce pricing complexity and exceptions,ORA Packages – Free Time Simplification,Revenue Enabler – EBIT,TBC,% standard package adoption and  # exceptions reduced,,Low,High,LAM,,,,,Prachi,,,C,,Prachi,,,,Athena - DnD Prachi,,,,
+290,Fix the Foundation,,Monitor and control FT EXT exception approvals,Contract D&D Exception Reduction,Revenue Enabler – EBIT,$1m ,Revenue improvement from reduced exception approval,No ,Low,High,Global,Athena,Athena,,Dependent on mature ocean journey and D&D offer sheet digitisation ,Prachi,,Shrikant,S,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+291,Fix the Foundation,,Define single enforceable SOP with clear ownership and timelines,LAM SOP (Longstanding Process),Revenue Enabler – EBIT,0,"Cycle time reduction
+Value covered in waiver management",Yes,Low,High,LAM,,,,,Prachi,,,S,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+292,Fix the Foundation,,Standardize negotiation rules during crisis situations,Crisis Management SOP,Revenue Enabler – EBIT,TBC,"Revenue loss avoided during crisis and Waiver Ratio
+Value in Process/Policy",Yes,High,High,LAM,,,,,Prachi,,,S,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+293,Fix the Foundation,,Adjust low per diem agreements (<USD 70) and enforce contracts,Special D&D Per Diem Cleaning,Revenue Enabler – EBIT,TBC,Avg. per diem increase and  Revenue uplift,,Low,High,LAM,,,,,Prachi,,,C,,Prachi,,,,Athena - DnD Prachi,,,,
+294,Fix the Foundation,,Clean +45 day FT(POD LMA)  cases and enforce contract discipline,Free Time Extension Control,Revenue Enabler – EBIT,TBC,Revenue leakage reduced ($) and Contract compliance (%),,Low,High,LAM,,,,,Prachi,,,C,,Prachi,,,,Athena - DnD Prachi,,,,
+295,Fix the Foundation,,Regulatory Approval flow for surcharge tariff increases,Carry-Over - Surcharges Price Setting,"Revenue Leakage Prevention,",0,"see last year
+See Op26 intake",Yes,Low,Medium,see last year,see last year,see last year,see last year,see last year,Prachi,see last year,Victor Santos & Leonie Wehrle,,,Victor & Leonie,,,,Athena - DnD Prachi,,,,
+296,Simple & Seamless Execution,,"Automated Price Setting, fully executable by regional product managers",Carry-Over - Surcharges Price Setting,FTE Reduction,0,"see last year
+See Op26 intake",Yes,Low,High,see last year,see last year,see last year,see last year,see last year,Prachi,see last year,Victor Santos & Leonie Wehrle,,,Victor & Leonie,,,,Athena - DnD Prachi,,,,
+297,,,Disputes Surcharge Approval flow to be enabled in CoPo,Linkage of Surcharge Waivers to CoPo,"Revenue Leakage Prevention,",$10m,"tbd, min. 10 M USD",,Low,Medium,,,,,,Prachi,,,,,Victor & Leonie,,,,Athena - DnD Prachi,,,,
+298,Structured to Earn,,"All-In Visbility of rolled in Surcharges, Get visibility of rolled in revenue (THC and all other charges)",Carry-Over - Surcharges,"Revenue Leakage Prevention,",0,"see last year
+See Op26 intake",Yes,Low,Medium,see last year,see last year,see last year,see last year,see last year,Prachi,see last year,Victor Santos & Leonie Wehrle,,,Victor,,,,Athena - DnD Prachi,,,,
+299,Structured to Earn,,"Business Request: Terminal level visibility of THC Cost (must have), revenue if possible (nice to have) and margins both in PowerBI and Benchmarking Tool",Enhance THC Cost Visibility,"Revenue Leakage Prevention,",TBC,Improved cost visibility on terminal instead of country level,No,Low,Medium,Global,"PowerBI, Tariff Benchmarking Tool",PowerBI,TBC for cost data sourcing,Cost data granularity on platform,Prachi,TBC,"Leonie Wehrle, Cavit Ilker",,,Leonie,,,,Athena - DnD Prachi,,,,
+300,Structured to Earn,,enable system alerts for updated competitor tariffs,Tariff Benchmarking,Revenue Enabler – EBIT,TBC,,,Low,Medium,,,,,,Prachi,,,,,Cavit,,,,Athena - DnD Prachi,,,,
+301,Simple & Seamless Execution,,AFLS based surcharge tariff filing analytics reporting capability to be enabled in Athena,Surcharge Price Setting,FTE Hiring Avoidance,TBC,Athena capability to generate tariff filing analytics at least at the same quality as AFLS Surcharge Filing Analytics Tool,No,Low,Medium,Global,Athena,Athena,None,Athena,Prachi,TBC,Victor Santos & Leonie Wehrle,,,Victor & Leonie,,,,Athena - DnD Prachi,,,,
+302,Fix the Foundation,,"Enhance solution in Kronos 2.0 to fix IQ issues and Disputes inflow reduction.
+1. Advance Billing 
+2.Non Programmable deals / Pre Audit solution for NAM
+3. Proactive waiver management / Draft invoice solution for big disputing commercial waiver customers
+4. Longstanding Billing solutions (Check with Lika) / Pre Invoice GAM approval / Service Delivery/exeption managment
+5. DTI for LNS solutions
+6. Double Storage billing solutions ( EUR- Ezgi ask), Seperate billing solution support from NFTP to bill Storage, Reefer plug in new Invocie type to customer. 
+7. NAM VR Release services
+8. Automation of NGA tools for Longstanding and PRV process",DnD Modernization - Kronos 2.0,Revenue Enabler – EBIT,"$1m
+
+20 FTE","IQ improvement, reduction in Disputes Inflow, Revenue enhacement, FTe effeciency and turn around time
+
+1. 10 FTE (GSC FTE + Area) ,  2% IQ benefit on Dnd IQ
+2. 10 FTE (GSC FTE) , 0.15 % on Global IQ Impact
+3. 5% all waiver type ( Ab36, Ab55 and AB 24), 20 Mn Waiver reduction, xx FTE benefit
+4. 3.3% Invoice Accuracy of D&D service Failures (Ocean + L&S), XX FTE benefit 
+5. XX Mn Need numbers from Aletha and Apa team
+6. 1 Mn 
+7. XX MN
+8. Xx FTE benefit",No ,High,High,Global,"OPD, OHP, NFTP",Kronos / Athena,Athena / Kronos / NFTP/GCSS,Athena / Kronos / NFTP/GCSS,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,"Denver D'silva; Raghuraman P J; Sean Chun Lei Fan ; Jennifer Azavedo; Cecilia Gomez Wrow, Gabriel Herdocia, Lovina ",M,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+303,Compelling Products,,"DnD Digitlisation of contract , spot, ORA, commodity and tariff filings in automated Journey - North Star",Ocean Digitization,Incremental or New Revenue EBIT,15 FTE,"IQ improvement, reduction in Disputes Inflow, FTe effeciency and turn around time
+15 to 20 FTE 
+We take the lowest number",Yes,High,High,Global,OPD,Athena,Kronos,Athena / Kronos,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,Karthikeyan Muthuswamy; Anupama Mahato; Anish Nair VR ,M,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+304,Fix the Foundation,,"AFRI system validation on D&D
+To create visibility of freetime & payment status for D&D charge in GCSS supported by Kronos
+For Cash customers, 40–95% of D&D billing remains outstanding month-on-month and consistently migrates into long-ageing buckets, while Freight outstanding remains controlled. The root cause is the absence of payment enforcement at empty return, making D&D a post-service, unsecured receivable.",Ocean Digitization,"Revenue Leakage Prevention,",$714m,"Outstanding and Writeoff
+
+* Cash Flow = +$59.5M/month released (~$714M/year)
+* Improved Gate Control - 40% Gap Closure
+* Write-off Reduction = XX M/year saved (credibility & practicality check)",No ,Low,High,Global,"OPD, OHP",GCSS,"KRONOS, SSDO,NFTP","NFTP, KRONOS, SSDO",Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,"Vaibhav Sharma/Lovina Cardoza, Satyam Singh,Prachi Yadav, Feroz Shaikh, Vinay Palencheri",M,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+305,Compelling Products,,"Automation with help of AI reports 
+1. Automate 4 way Recon Reporting
+2. Rewiring DND Navigator tool area featire requirements
+3. DND cube automation
+4. Aligning the logic of POD/POR for weekly revenue management - Use same shipment table to fetch the data as used in FBR
+5. Update Trades and Route codes based on current network setup
+6. Additional columns to improve visibility - Modelship / GL account Invoice number/CM number along with Posted date  Carrier Haulage/Merchant Haulage field
+7.  Product Hierarchy Details - Include detailed product structure which is currently available in HB, with more specific categorization at the second and third levels. There is currently confusion regarding what comes from ORA or QBA, and this additional granularity will help clarify reporting
+5. Fixed cube to extract previous year data of 2023, 2022, 2021 (just like FBR)",Productivity,Revenue Enabler – EBIT,0,"Revenue protection, Visbility and standardisation, reporting benefits
+Enables all above initiatives for D&D",No ,Low,High,Global,OPD,Athena / Kronos / GCSS/NFTP/COMET,Athena / Kronos / GCSS/NFTP/COMET,Athena / Kronos / GCSS/NFTP/COMET,Prachi,Sandeep Kumar Padhy / Eligio Fanigliulo,"Denver D'silva; Raghuraman P J; Sean Chun Lei Fan ; Jennifer Azavedo; Cecilia Gomez Wrow, Gabriel Herdocia, Lovina ",M,,Prachi,,,Yes,Athena - DnD Prachi,,,,
+306,Compelling Products,,Business Request: Re-evaluation of THC Gameplan exercise and execution (APA & EUR),THC Gameplan Exercise,Revenue Enabler – EBIT,TBC,Improved annual tariff setting exercise with more workable timelines and procurement input across regions,No,Low,Medium,Global,none,none,none,"CEN and regional procurement teams, their processes and internal timelines",Prachi,TBC,Leonie Wehrle,,,Shaurya,,,,Athena - DnD Prachi,,,,
+307,Structured to Earn,,"Automated Calculations of Trade Factor, OD factor, Bunker and Emission Surcharge  (FFF/EMS/ECO) replacing manual spreadsheets; governed calculations feeding Athena and reporting.",Revenue Integrity & Scaling,Revenue at Risk-EBIT,$6m,"Leakage prevented; pricing accuracy; # manual corrections; audit findings
+
+Compliance. Risk mitigation of manual error or wrong customer invoicing on USD 6-8 B of fuel surcharges.",Yes,Medium,Medium,Global,ET Platform / Athena,Athena / Emissions Workbench,"AFLS, SFDC, Energy Bank, Power BI","Data ownership, Athena integration, factor governance",Prachi,TBC,R. Rajan; J. Pueschel; Gabriela de Jesus Martin,M,,Ratish,,,yes,Athena - DnD Prachi,,,,
+308,Compelling Products,,"Self-service portal for certificates, statements and extracts (customer + internal access from one governed source).",Customer Experience & Scalability,Revenue Enabler – EBIT,TBC,% self-service usage; manual requests; turnaround time; NPS,Yes,Medium,Medium,Global,Maersk.com / ET Platform,Emissions Workbench,"SFDC, Power BI, Energy Bank","Certificate data readiness, access model, templates",Prachi,TBC,J. Pueschel; Gabriela de Jesus Martin,S,,Shaurya,,,,Athena - DnD Prachi,,,,
+309,Fix the Foundation,,OD-level pricing replacing trade-level approximations.,Pricing Accuracy,Revenue at Risk-EBIT,TBC,Pricing accuracy; audit findings,Yes,Medium,Medium,Global,ET Platform / Athena,Athena,"Energy Bank, SFDC",OD data availability,Prachi,TBC,R. Rajan; J. Pueschel; Gabriela de Jesus Martin,M,,Shaurya,,,,Athena - DnD Prachi,,,,
+310,Structured to Earn,,Automated ECO invoicing and entity handling.,Invoice Accuracy,Revenue at Risk-EBIT,$2m,Invoice accuracy; disputes,Yes,Medium,Medium,Global,Finance / ET Platform,AFLS,"SFDC, Power BI",Finance integration,Prachi,TBC,J. Pueschel; Gabriela de Jesus Martin,S,,Shaurya,,,yes,Athena - DnD Prachi,,,,
+311,Compelling Products,,"This initiative will introduce an Online Claims Portal on Maersk.com, enabling customers to submit claims through a guided, structured process, improving data quality and reducing missed notifications and legal exposure. It will also establish the foundation for Connected Claims by integrating claim submissions with operational and customer data via Salesforce and other platforms, accelerating triage and decision-making. The solution will streamline document collection, enable intelligence automation for low-value claims and claims analysis, and improve efficiency. Overall, it enhances customer experience, reduces risk, and supports growth of customer-centric offerings such as Value Protect and Cargo Insurance.",Online Claim Submission and AI claims handling of low value claims,Revenue Enabler – EBIT,$7.6m,"Success Measurement / KPI
+(For eg. Invoice Accuracy)
+
+(FPO submits FTE Efficiency $1.32M + Revenue Enabler - EBIT $7.6M) our assessment is that POC is needed",No,High,High,Global,Maersk.com,Maersk.com,GAM,Case management integration,Prachi,,"Swapnesh Mudliyar
+Ewelina Andrzejewska",M,,Shaurya,,,"No for OP, yes for POC",Athena - DnD Prachi,,,,
+312,Fix the Foundation,,Waivers: GAM approver management tool modernization,Compliance,"Revenue Leakage Prevention,",TBC,% reduction of approvals that had to be reassigned,No,Medium,High,Global,Another,GAM ,GAM & DAM matric,GAM & DAM matrix,Lina Barauskaite,TBC,Jennifer Azavedo,M,,Shaurya,,L/XL,yes,Athena - DnD Prachi,,,,
+322,Structured to Earn,Platform Consolidation & Technical Simplification,Replace Stripe with BnP Paribas ,Digital Payments ,IT Cost Savings,TBC,"Stripe remains a high-cost payment solution, with elevated processing and FX fees, limiting cost efficiency and scalability across European markets.
+1. Reduced high cost currently paid to STRIPE for card payments
+2. Increased customer satisfaction
+3. Cash Flow improveement
+4.Reduced CPS
+",No,High,High,EUR,"Payments, MyFinance, S4HANA","Payments, MyFinance, S4HANA",,Output is depended on customer uptake ,,TBD,Asraar Shaikh,M,,,Ema/Daniel K.,L,Yes,Tech Enabling OP doc,,,,
+323,Fix the Foundation,Platform Consolidation & Technical Simplification,Inttra - Rework and Review,Decommission a System,IT Cost Savings,$5m,Inttra contract exited / decommissioned by 2027; top-customer Ocean volume migrated to Maersk/DCSA standard API or EDI; $5M annualised net contract savings realised (residual volume absorbed on SPOT/short-term).,No,High,High,Global,Another,Integration Middleware - INTTRA, ,Requires support from contract product teams to enable Inttra exit as part of the tender process. Binary scope: full migration or none - halving volume does not yield proportional contract savings. Must start in 2026 to allow a clean exit by the 2027 contract end date. Customer transition/adoption effort is the main risk. Tech effort minimal/contained: standard Maersk/DCSA API (developer portal) or EDI setup; bulk of effort is integration requirements clarification and testing. Tech teams: Integration team + potentially Saransh Kapur's team.,, ,Business Product Owner - Priyanka,S,,,Priyanka,L,Yes,Tech Enabling OP doc,,,,"<Manos/ Dinesh> Depending on the number of cutsomers to be decommisioned from INTRAA, the effort will vary between M to L"
+324,Compelling Products,Commercial Accelerators,"Configurable Event Delivery Layer for Ocean Track & Trace API
+
+Triggered by Walmart integration (APIS-4918), this initiative builds a platform-level capability rather than a one-off customization. Three core features:
+
+1. Configurable payload format - option to strip Cloud Event envelope and deliver raw event arrays
+2. Container (EQ) references on transport events - link containers to vessel movements
+3. Incremental (latest-only) event delivery - shift from full transport plan snapshots to real-time deltas
+
+This enables leaner integrations, reduces consumer-side deduplication effort, and aligns with DCSA V2 evolution.",Commercial Accelerator,Revenue Enabler – EBIT,"50,000
+","• API premium tier adoption rate (target: 15+ customers in Year 1)
+• Incremental revenue from real-time tier ($)
+• Walmart integration go-live (target: Q2 FY next year)
+• Event delivery latency (target: <5 min from source event)
+• Data quality score on incremental events (target: >99.5% accuracy)
+• Customer NPS / CSAT on Track & Trace API
+
+Value
+• Premium tier pricing for real-time incremental feed (est. $50 to 100k)
+• Reduced churn risk on Tier-1 accounts (Walmart)
+• Marginal cost low once platform is built - high-margin revenue stream",No - New Initiative,"High - Tier-1 Customer Retention & Acquisition
+
+• Walmart: unblocks integration currently stalled on APIS-4918
+• Tech-first customers (retailers, 3PLs, freight forwarders) increasingly demand lean, real-time APIs
+• Competitive parity: major carriers already offer incremental event delivery
+• Potential to convert existing batch consumers to premium tier","Significant - Simplified Integration
+
+• No more deduplication logic on consumer side
+• Smaller payloads reduce bandwidth and processing time
+• Container-level granularity enables precise operational workflows
+• Real-time events enable downstream automation (ETA alerts, exception handling)",Global,"Track & Trace API Platform
+Total Visibility
+Single Source of Truth (maersk.com)",DCSA Ocean T&T Webhook V2.2 ,"Total Visibility (data source)
+Single Source of Truth (data quality)
+New source systems (EQ reference enrichment)
+Customer Portal (future extension)","Dependencies:
+• Total Visibility data maturity - must validate event accuracy before incremental delivery
+• Single Source of Truth (maersk.com) roadmap alignment
+• New source system availability for EQ references on transport events
+
+Risks:
+• Data quality gaps exposed to Tier-1 customer if launched prematurely
+• Scope creep if treated as Walmart-only customization vs. platform capability
+• Sequencing conflict with Total Visibility roadmap",,[TBD — Finance Partner Name],"PPO: Jonathan Kartz
+Eng Head: Dinesh Nithyanandam
+Tech Lead: Ricardo Passos",M,,,"Ricardo Passos, Dinesh Nithyanandam, Cornelia Buehrer ",M,Yes,Tech Enabling OP doc,,,,
+325,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,"1. ""--A robust, maintained Ts&Cs taxonomy structure that is actively populated with product and functional content to serve the needs of latest business offerings.
+--Localization content coverage, including regulatory, product and language needs""
+2. Linked Ts&Cs content to give standardized coverage to all journeys
+--Instant journeys  (inc L&S e.g. MCL white space)
+--Fast Track
+--Tender journey inc. multi-product
+-- Opportunity under an MSA
+--LOI journey
+3. Touch-free contracting with adherence to system-based journey ",System-based contracting for accurate and timely commitment handover,FTE Efficiency,TBC,"(1) Taxonomy completeness
+(2) Ts&Cs taxonomy quality
+(3) Localization measure of prioritised needs met
+(1) % opportunities possible served with content + system journeys (count based)
+(2) % opportunities possible  served with content + system journeys (revenue weighted)
+(1) % of journeys completing contracting within platform
+(1a) % of Instant journey opportunities that are touch-free contracting
+(1b) % of Fast-Track journeys that are touch-free contracting
+(1c) % of Standard tender journeys that are touch-free contracting
+(1d) % of Negotiated contracts using NSTC through routed approval/sgnatory
+
+",,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,LTA,,Ocean Contract Products,
+326,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,"Extending opportunity coverage of Contract Risk Assessment capabilities, including product-price linkage for risk elements
+Contract Risk dashboards for Corporate Memory, allowing application of precedence, and first-glance awareness for sales
+Contract-AI to facilitate faster, NSTC integrated quality red-lining
+Contract-AI to lift the filing quality proactively
+
+[Add] Improve user friendliness of the tool",Contract AI applications to enable us to approve & file to the right deals,,TBC,"""(1) Sales TAT, 
+(2) Opportuntieis dispositioned based on first-glance 
+(3) User sentiment measure""
+""(1) Overall Ts&CS TAT start-to-close
+(2) Legal Ts&CS first-review TAT
+(3) Count of Ts&Cs negotiation rounds""
+""Opportunity level contract & parameter %s
+(1) are the correct Ts&Cs referenced?
+(2) is the latest rate card included?
+(3) is the correct Maersk legal entity used?
+(4) is the correct signatory used? (if applicable)
+(5) is the scope sold adequately described?""",,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,,,Ocean Contract Products,
+327,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,"Link the negotiated contracting process risk assessment, and functional reviewer to the Ts&Cs Guardrails
+Use legal entity mapping logic to provide sales guidance through system
+Use GAM mapping to route exceptions and risks to Functional Reviewers, Deal Approvers, and thereafter Signatories
+Define the local and global Signatory policies based on entity
+Enable multi-product Integrator journey",Application of Commercial GAM to underpin our Contracting processes,,TBC,,,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,,,Ocean Contract Products,
+328,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,"Athena Contract Header
+OOG, Special cargo  Filing
+VIP Filing
+CAT Filing enhancements
+FMC compliance enhancements & reporting",Contract Filing Other needs,,TBC,,,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,,,Ocean Contract Products,
+329,Simple & Seamless Execution,Contract Governance & Subscription Lifecycle,"Legal precendence(routing from legal front-door)
+Contract-AI to faciltiate executional consumption needs
+System Credit filing/Standalone credit consumption
+CCD Contract data connection to Onboarding CX
+aLex Disputes
+aLex OCE claims",Empower downstream with Contract Consumption integration and visibility,,TBC,,,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,,,Ocean Contract Products,
+,,,,,,,,,,,,,,,,Gemma Allen,,,,,Ivana Strikic Lund,,,,Shruti,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
