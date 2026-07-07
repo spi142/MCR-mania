@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>OP1 Ocean Product Intake — workstreams by Ocean OP vision pillar and OP initiative</title>
+    <style>
+        :root{--maersk-blue:#42B0D5;--maersk-dark:#00243D;--sky:#EAF7FB;--ink:#102A43;--muted:#637381;--line:#D8E4EA;--card:#fff;--bg:#F5F8FA;--green:#007A5E;--amber:#946200;--purple:#5D3FD3}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Maersk Text','Segoe UI',Arial,sans-serif;line-height:1.45}.hero{background:linear-gradient(135deg,var(--maersk-dark),#065878 72%,var(--maersk-blue));color:white;padding:34px 44px 28px;border-bottom:6px solid var(--maersk-blue)}.hero h1{margin:0;font-size:32px;letter-spacing:-.4px}.hero p{font-size:15px;max-width:1110px;margin:10px 0 0;color:#EAF7FB}.container{max-width:1500px;margin:0 auto;padding:24px 32px 48px}.summary{display:grid;grid-template-columns:repeat(4,minmax(190px,1fr));gap:16px;margin-bottom:22px}.kpi-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 8px 24px rgba(0,36,61,.1)}.kpi-card span{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}.kpi-card strong{display:block;font-size:28px;color:var(--maersk-dark);margin-top:6px}.kpi-card em{font-style:normal;color:var(--muted);font-size:13px}.note{background:#fff;border-left:5px solid var(--maersk-blue);padding:14px 18px;border-radius:12px;margin:18px 0 24px;color:#30475E;font-size:13px}.filters{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 20px;box-shadow:0 1px 2px rgba(16,42,67,.04)}.filters>h2{margin:0 0 10px;font-size:15px;color:var(--maersk-dark)}.fgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.fbox{border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:#FBFDFE}.fbox h4{margin:0 0 7px;font-size:12px;font-weight:700;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:8px}.fbtns{display:flex;gap:5px;flex:none}.fbtns button{font-size:10px;padding:1px 8px;border:1px solid var(--line);background:#fff;border-radius:20px;color:var(--muted);cursor:pointer}.fbtns button:hover{border-color:var(--maersk-blue);color:var(--maersk-dark)}.pills{display:flex;flex-wrap:wrap;gap:5px;max-height:120px;overflow-y:auto;padding:2px 4px 2px 0}.fpill{display:inline-flex;align-items:center;gap:5px;font-size:11px;padding:2px 8px;border:1px solid var(--line);border-radius:20px;background:#fff;cursor:pointer;white-space:nowrap;color:var(--ink)}.fpill input{margin:0;transform:scale(.82);accent-color:var(--maersk-blue)}.theme-section{margin:26px 0}.theme-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;background:var(--maersk-dark);color:#fff;border-radius:20px 20px 8px 8px;padding:18px 22px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--maersk-blue)}.theme-bar h2{margin:3px 0 0;font-size:22px}.theme-totals{text-align:right}.theme-totals strong{display:block;font-size:24px}.theme-totals span{color:#CFECF5;font-size:13px}.epic-card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:12px 0;overflow:hidden;box-shadow:0 3px 12px rgba(0,36,61,.05)}.epic-header{display:flex;justify-content:space-between;gap:18px;padding:18px 20px;cursor:zoom-in}.epic-header h3{margin:2px 0 6px;color:var(--maersk-dark);font-size:19px}.epic-header p{margin:0;color:#526875;font-size:13px;max-width:760px}.epic-label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--maersk-blue)}.epic-stats{display:flex;align-items:center;gap:16px;white-space:nowrap}.epic-stats div{text-align:right}.epic-stats strong{display:block;color:var(--maersk-dark);font-size:19px}.epic-stats span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.toggle{border:0;background:var(--maersk-blue);color:#00243D;font-weight:800;border-radius:999px;padding:8px 14px;cursor:pointer;font-size:12px}.feature-panel{display:none;border-top:1px solid var(--line);background:#FBFDFE;padding:0 0 8px;max-height:500px;overflow-y:auto}.feature-panel.open{display:block}table{width:100%;border-collapse:collapse;font-size:12px}th{text-align:left;background:#EAF7FB;color:var(--maersk-dark);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;padding:10px;border-bottom:1px solid var(--line);position:sticky;top:0}td{vertical-align:top;padding:10px;border-bottom:1px solid #E6EEF2}td.id{font-weight:800;color:var(--maersk-dark);width:62px}.feature-title{font-weight:700;color:#183247;margin-bottom:6px;font-size:12px}.feature-meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:4px}.chip{display:inline-flex;background:#EEF4F7;color:#334E5C;border:1px solid #D8E4EA;border-radius:999px;padding:3px 8px;font-size:10px;margin:1px}.chip.vt{background:#EAF7FB;color:#065878;border-color:#BFE3F0}.chip.carry{background:#FFF4E5;color:#946200;border-color:#F5D9A8}.chip.opd{background:#EDE7FB;color:#5D3FD3;border-color:#D5C9FF}.chip.keep-yes{background:#E9F8F2;color:#007A5E;border-color:#BFE7D5}.chip.keep-no{background:#FDECEC;color:#B42318;border-color:#F6CFCB}.muted{color:var(--muted);font-size:11.5px}.catchall h3::after{content:' · unassigned';color:var(--muted);font-weight:500;font-size:12px}.hidden-by-filter{display:none!important}@media(max-width:900px){.summary,.fgrid{grid-template-columns:1fr}.theme-bar,.epic-header{flex-direction:column;align-items:flex-start}.epic-stats{width:100%;justify-content:space-between;flex-wrap:wrap}}
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>OP1 Ocean Product Intake — workstreams by Ocean OP vision pillar and OP initiative</h1>
+        <p>OP initiative workstreams from the OP1 Consolidated Final "Ocean Product Intake" tab, structured by the Ocean OP vision pillars and their OP initiatives. The business case aggregates Value PnL Impact in USD and FTE. Double-click any OP initiative to open its workstreams and see Platform, Primary System, Person Assigned, Tech Engineer and T-shirt size. Workstreams not yet assigned to an initiative sit under "OP initiative to be assigned" within their pillar.</p>
+    </header>
+
+    <main class="container">
+        <section class="summary">
+            <div class="kpi-card">
+                <span>Quantified business case</span>
+                <strong id="kpi-value">$0</strong>
+                <em>Value PnL Impact $$ + FTE proxy (1 FTE = $25k)</em>
+            </div>
+            <div class="kpi-card">
+                <span>FTE reduction</span>
+                <strong id="kpi-fte" style="color:#007A5E">0 FTE</strong>
+                <em>Headcount stated in Value PnL Impact $$ / FTE</em>
+            </div>
+            <div class="kpi-card">
+                <span>Total workstreams</span>
+                <strong id="kpi-features">0</strong>
+                <em><span id="kpi-quantified">0</span> quantified · <span id="kpi-unquantified">0</span> TBC/unquantified</em>
+            </div>
+            <div class="kpi-card">
+                <span>OP initiatives</span>
+                <strong id="kpi-inits">0</strong>
+                <em>Named initiatives across vision pillars</em>
+            </div>
+        </section>
+
+        <section class="filters">
+            <h2>Filters</h2>
+            <div class="fgrid">
+                <div class="fbox">
+                    <h4>Filter by Business Value Type<span class="fbtns"><button onclick="setAllVT(true)">All</button><button onclick="setAllVT(false)">Clear</button></span></h4>
+                    <div class="pills" id="vtFilter"></div>
+                </div>
+                <div class="fbox">
+                    <h4>Filter by Carry Over<span class="fbtns"><button onclick="setAllCarry(true)">All</button><button onclick="setAllCarry(false)">Clear</button></span></h4>
+                    <div class="pills" id="carryFilter"></div>
+                </div>
+                <div class="fbox">
+                    <h4>Filter by Keep in OP1<span class="fbtns"><button onclick="setAllKeep(true)">All</button><button onclick="setAllKeep(false)">Clear</button></span></h4>
+                    <div class="pills" id="keepFilter"></div>
+                </div>
+                <div class="fbox">
+                    <h4>Filter by Team<span class="fbtns"><button onclick="setAllTeam(true)">All</button><button onclick="setAllTeam(false)">Clear</button></span></h4>
+                    <div class="pills" id="teamFilter"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="note">
+            <strong>Aggregation logic:</strong> USD and FTE are read from the Value PnL Impact $$ / FTE column; dollar amounts ($, m, bn, k, and $50,000-style figures) are summed, FTE-only values use a proxy of <strong>1 FTE = USD 25,000/year</strong>, and TBC/TBD and narrative entries are excluded from quantified totals. <strong>FTE reduction</strong> is a second, headcount-based measure summed from explicit "N FTE" statements. Vision pillars and OP initiatives are taken directly from the sheet; workstreams with no initiative are grouped under "OP initiative to be assigned" within their pillar.
+        </div>
+
+        <div id="content"></div>
+    </main>
+
+    <script>
+        let allData = [];
+        
+        function parseCSVData(csvText) {
+            const lines = csvText.split('\n');
+            const headers = lines[1].split(',').map(h => h.trim());
+            const data = [];
+            
+            for (let i = 2; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+                const values = lines[i].split(',');
+                const obj = {};
+                headers.forEach((h, idx) => {
+                    obj[h] = (values[idx] || '').trim();
+                });
+                if (obj['#']) data.push(obj);
+            }
+            return data;
+        }
+
+        function parseValue(val) {
+            if (!val || val.match(/^(tbc|tbd)$/i)) return { usd: 0, fte: 0 };
+            const fteMatcher = val.match(/(\d+(?:\.\d+)?)\s*FTE/i);
+            const fte = fteMatcher ? parseFloat(fteMatcher[1]) : 0;
+            let usd = 0;
+            const usdMatcher = val.match(/\$?([\d,]+(?:\.\d+)?)\s*([kmb])?/i);
+            if (usdMatcher) {
+                usd = parseFloat(usdMatcher[1].replace(/,/g, ''));
+                const unit = usdMatcher[2] ? usdMatcher[2].toLowerCase() : '';
+                if (unit === 'k') usd *= 1000;
+                else if (unit === 'm') usd *= 1000000;
+                else if (unit === 'b') usd *= 1000000000;
+            }
+            return { usd, fte };
+        }
+
+        function formatCurrency(val) {
+            if (val >= 1000000000) return '$' + (val / 1000000000).toFixed(2) + 'bn';
+            if (val >= 1000000) return '$' + (val / 1000000).toFixed(2) + 'm';
+            if (val >= 1000) return '$' + (val / 1000).toFixed(1) + 'k';
+            return '$' + val.toFixed(0);
+        }
+
+        function initializeFilters(data) {
+            const vtTypes = new Set(), carryTypes = new Set(), keepTypes = new Set(), teamTypes = new Set();
+            data.forEach(row => {
+                if (row['Business Value Type']) vtTypes.add(row['Business Value Type']);
+                if (row['Carry Over Yes/No']) carryTypes.add(row['Carry Over Yes/No']);
+                if (row['Keep in OP1 Yes / No']) keepTypes.add(row['Keep in OP1 Yes / No']);
+                if (row['OP Document / Team']) teamTypes.add(row['OP Document / Team']);
+            });
+
+            ['vtFilter', 'carryFilter', 'keepFilter', 'teamFilter'].forEach((id, idx) => {
+                const types = [vtTypes, carryTypes, keepTypes, teamTypes][idx];
+                const container = document.getElementById(id);
+                Array.from(types).sort().forEach(type => {
+                    if (type) {
+                        const label = document.createElement('label');
+                        label.className = 'fpill';
+                        const classes = ['vt-filter', 'carry-filter', 'keep-filter', 'team-filter'];
+                        label.innerHTML = `<input type="checkbox" class="${classes[idx]}" value="${type.replace(/"/g, '&quot;')}" checked> ${type}`;
+                        label.querySelector('input').addEventListener('change', applyFilters);
+                        container.appendChild(label);
+                    }
+                });
+            });
+        }
+
+        function applyFilters() {
+            const vt = new Set(Array.from(document.querySelectorAll('.vt-filter:checked')).map(el => el.value));
+            const carry = new Set(Array.from(document.querySelectorAll('.carry-filter:checked')).map(el => el.value));
+            const keep = new Set(Array.from(document.querySelectorAll('.keep-filter:checked')).map(el => el.value));
+            const team = new Set(Array.from(document.querySelectorAll('.team-filter:checked')).map(el => el.value));
+
+            document.querySelectorAll('.feature-row').forEach(row => {
+                const visible = vt.has(row.dataset.vtype) && carry.has(row.dataset.carry) && keep.has(row.dataset.keep) && team.has(row.dataset.team);
+                row.classList.toggle('hidden-by-filter', !visible);
+            });
+            updateKPIs();
+        }
+
+        function setAllVT(checked) { document.querySelectorAll('.vt-filter').forEach(el => el.checked = checked); applyFilters(); }
+        function setAllCarry(checked) { document.querySelectorAll('.carry-filter').forEach(el => el.checked = checked); applyFilters(); }
+        function setAllKeep(checked) { document.querySelectorAll('.keep-filter').forEach(el => el.checked = checked); applyFilters(); }
+        function setAllTeam(checked) { document.querySelectorAll('.team-filter').forEach(el => el.checked = checked); applyFilters(); }
+
+        function updateKPIs() {
+            let totalUSD = 0, totalFTE = 0, quantified = 0, unquantified = 0;
+            const initiatives = new Set();
+            document.querySelectorAll('.feature-row:not(.hidden-by-filter)').forEach(row => {
+                const usd = parseFloat(row.dataset.usd) || 0;
+                const fte = parseFloat(row.dataset.fte) || 0;
+                totalUSD += usd;
+                totalFTE += fte;
+                if (usd > 0 || fte > 0) quantified++;
+                else unquantified++;
+                if (row.dataset.initiative) initiatives.add(row.dataset.initiative);
+            });
+            const totalWithProxy = totalUSD + (totalFTE * 25000);
+            document.getElementById('kpi-value').textContent = formatCurrency(totalWithProxy);
+            document.getElementById('kpi-fte').textContent = totalFTE.toFixed(1) + ' FTE';
+            document.getElementById('kpi-features').textContent = quantified + unquantified;
+            document.getElementById('kpi-quantified').textContent = quantified;
+            document.getElementById('kpi-unquantified').textContent = unquantified;
+            document.getElementById('kpi-inits').textContent = initiatives.size;
+        }
+
+        function toggleEpic(id) {
+            const panel = document.getElementById(id);
+            if (panel) panel.classList.toggle('open');
+        }
+
+        function generateReport(data) {
+            const pillars = {};
+            data.forEach(row => {
+                const pillar = row['Ocean OP Vision Pillars'] || 'Unassigned pillar';
+                const initiative = row['OP Initiatives  / Outcomes'] || 'OP initiative to be assigned';
+                if (!pillars[pillar]) pillars[pillar] = {};
+                if (!pillars[pillar][initiative]) pillars[pillar][initiative] = [];
+                pillars[pillar][initiative].push(row);
+            });
+
+            const content = document.getElementById('content');
+            Object.keys(pillars).sort().forEach(pillar => {
+                const section = document.createElement('section');
+                section.className = 'theme-section';
+                let pillarUSD = 0, pillarFTE = 0, pillarCount = 0;
+                Object.values(pillars[pillar]).forEach(inits => {
+                    inits.forEach(row => {
+                        const p = parseValue(row['Value PnL Impact $$ / FTE']);
+                        pillarUSD += p.usd;
+                        pillarFTE += p.fte;
+                        pillarCount++;
+                    });
+                });
+                const pillarWithProxy = pillarUSD + (pillarFTE * 25000);
+                section.innerHTML = `<div class="theme-bar"><div><span class="eyebrow">Ocean OP Vision Pillar</span><h2>${pillar}</h2></div><div class="theme-totals"><strong class="theme-value">${formatCurrency(pillarWithProxy)}</strong><span class="theme-fte-line">+ <span class="theme-fte">${pillarFTE.toFixed(1)} FTE</span></span><span><span class="theme-count">${pillarCount}</span> workstreams · <span class="theme-init-count">${Object.keys(pillars[pillar]).filter(i => i !== 'OP initiative to be assigned').length}</span> initiatives</span></div></div>`;
+
+                Object.keys(pillars[pillar]).sort().forEach(initiative => {
+                    const inits = pillars[pillar][initiative];
+                    let initUSD = 0, initFTE = 0;
+                    inits.forEach(row => {
+                        const p = parseValue(row['Value PnL Impact $$ / FTE']);
+                        initUSD += p.usd;
+                        initFTE += p.fte;
+                    });
+                    const initWithProxy = initUSD + (initFTE * 25000);
+                    const panelId = (pillar + '-' + initiative).toLowerCase().replace(/[^a-z0-9]/g, '-');
+                    const card = document.createElement('article');
+                    card.className = 'epic-card' + (initiative === 'OP initiative to be assigned' ? ' catchall' : '');
+                    card.ondblclick = () => toggleEpic(panelId);
+                    card.innerHTML = `<div class="epic-header"><div><div class="epic-label">OP Initiative</div><h3>${initiative}</h3><p>${pillar}</p></div><div class="epic-stats"><div><strong class="epic-count">${inits.length}</strong><span>workstreams</span></div><div><strong class="epic-fte">${initFTE.toFixed(1)} FTE</strong><span>FTE</span></div><div><strong class="epic-value">${initUSD > 0 ? formatCurrency(initUSD) : '—'}</strong><span>quantified value</span></div><button class="toggle" onclick="event.stopPropagation(); toggleEpic('${panelId}')">Open</button></div></div><div class="feature-panel" id="${panelId}"><table><thead><tr><th>ID</th><th>OP initiative workstream</th><th>Value $$ / FTE</th><th>Platform</th><th>Primary System</th><th>Person Assigned</th><th>Tech / Engineer</th><th>T-shirt</th></tr></thead><tbody>`;
+                    inits.forEach(row => {
+                        const p = parseValue(row['Value PnL Impact $$ / FTE']);
+                        const vtype = row['Business Value Type'] || '';
+                        const carry = row['Carry Over Yes/No'] || 'Blank';
+                        const team = row['OP Document / Team'] || 'Blank';
+                        const keep = row['Keep in OP1 Yes / No'] || 'Blank';
+                        card.innerHTML += `<tr class="feature-row" data-usd="${p.usd}" data-fte="${p.fte}" data-vtype="${vtype}" data-carry="${carry}" data-team="${team}" data-keep="${keep}" data-initiative="${pillar}||${initiative}"><td class="id">#${row['#']}</td><td><div class="feature-title">${row['OP Initiative Workstreams'] || ''}</div><div class="feature-meta">${vtype ? `<span class="chip vt">${vtype}</span>` : ''}${carry !== 'Blank' ? `<span class="chip carry">Carry: ${carry}</span>` : ''}${team ? `<span class="chip opd">${team}</span>` : ''}${keep === 'Yes' ? `<span class="chip keep-yes">Keep: Yes</span>` : keep === 'No' ? `<span class="chip keep-no">Keep: No</span>` : ''}</div></td><td>${p.usd > 0 || p.fte > 0 ? (p.usd > 0 ? formatCurrency(p.usd) : '') + (p.fte > 0 ? ` <span class="muted">(${p.fte} FTE)</span>` : '') : '<span class="muted">TBC</span>'}</td><td>${row['Platform'] || '—'}</td><td>${row['Primary System'] || '—'}</td><td>${row['Person assigned'] || '—'}</td><td>${row['Tech / Engineer Name (if known)'] || '—'}</td><td>${row['T-shirt size \n XS / S / M / L /XL /XXL'] || '—'}</td></tr>`;
+                    });
+                    card.innerHTML += '</tbody></table></div>';
+                    section.appendChild(card);
+                });
+                content.appendChild(section);
+            });
+        }
+
+        // CSV data embedded directly
+        const csvData = `#,Ocean OP Vision Pillars,OP Initiatives  / Outcomes,OP Initiative Workstreams,"Old Business Themes submitted but hidden as standardized
+(for eg. Invoice reduction) ",Business Value Type,Value PnL Impact $$ / FTE,"Success Measurement / KPI
+(For eg. Invoice Accuracy)",Carry Over Yes/No,Customer Impact,End User Impact,Regions Impact,Platform,Primary System,Any other systems,"Dependencies / Risks
+specify the platform name",Submittor Name,Name: Finance Business Partner Sign off,Contacts (FPO & BPO),MoSCoW PRIORITY LEGEND by Submittor,,Person assigned,Tech / Engineer Name (if known) ,"T-shirt size 
+XS / S / M / L /XL /XXL",Keep in OP1 Yes / No,OP Document / Team,PnL,PnL Owners,Kathik's Category / Product Team,LT Contract Initiative - Karthik
+1,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Automatic inland haulage creation within Prism promise end date,Increase Revenue,Incremental or New Revenue EBIT,$94m,"Haulage accuracy, Haulage on time",No,High,High,Global,Order Handling platform,GCSS,,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,M,,Lisa,Farzana,,Yes,Combined V5,,,,
+2,Simple & Seamless Execution,Revenue Optimisation & Value Capture,Prism: Automatic dispute handling for DnD and Credit memo DLG fee ,Invoice Quality - Ocean+ & DnD,FTE Efficiency,5 FTE,Invoice accuracy,No,High,High,Global,Order Handling platform,Charge Automation,Disputes,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,S,,Saurabh,,L,Yes,Combined V5,,,,
+3,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Offering options for customers to select different Prism product throughout booking journey,Increase Revenue,Incremental or New Revenue EBIT,TBC,Revenue,No,High,High,Global,Order Handling platform,OIPC,,,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,S,,Ditte/Haze,,S,Yes,Combined V5,,,,
+4,Structured to Earn,Revenue Optimisation & Value Capture,Prism: Provide Prism qualified routes at booking,Increase Revenue,Incremental or New Revenue EBIT,TBC,"Cost, Delivery success",No,High,High,Global,Order Handling platform,SSIB,"OIPO, IRE, GCSS",Routing platform,Julie Yie,Eligio Fanigliulo,Daison Souza/Julia Ye Li,M,,Ditte/Haze,,M,No,Combined V5,,,,
+5,Structured to Earn,Quote Journey Acceleration,Reefer SPOT,Increase Revenue,Revenue Enabler – EBIT,$6m,Incremental Revenue,No,High,High,APA only,Penny,Penny,"OIPO, SSIB",,Maia Parlagashvili,Fabian Bauerdick,Maia Parlagashvili,M,,Penny Henrik / Ditte/ Haze,,,No,Combined V5,,,,`;
+
+        window.addEventListener('load', function() {
+            allData = parseCSVData(csvData);
+            initializeFilters(allData);
+            generateReport(allData);
+            updateKPIs();
+        });
+    </script>
+</body>
+</html>
